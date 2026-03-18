@@ -7,11 +7,11 @@ import os
 # ── Config ────────────────────────────────────────────────────────────────────
 
 COMPANIES = {
-    "MARUTI":       "Maruti Suzuki",
-    "TATAMOTORS":   "Tata Motors",
-    "M&M":          "Mahindra & Mahindra",
-    "BAJAJ-AUTO":   "Bajaj Auto",
-    "HEROMOTOCO":   "Hero MotoCorp",
+    "MARUTI":     "Maruti Suzuki",
+    "TMPV":       "Tata Motors",      # ← fixed
+    "M&M":        "Mahindra & Mahindra",
+    "BAJAJ-AUTO": "Bajaj Auto",
+    "HEROMOTOCO": "Hero MotoCorp",
 }
 
 OUTPUT_DIR  = "data/bronze/nse_announcements"
