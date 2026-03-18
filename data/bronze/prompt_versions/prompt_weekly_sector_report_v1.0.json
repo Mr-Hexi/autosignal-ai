@@ -1,0 +1,12 @@
+{
+  "version": "v1.0",
+  "task": "weekly_sector_report",
+  "model_name": "llama-3.1-8b-instant",
+  "created_at": "2026-03-18",
+  "is_active": true,
+  "parameters": {
+    "max_tokens": 500,
+    "temperature": 0.3
+  },
+  "prompt_template": "You are a senior financial analyst covering Indian automobile stocks.\n\nToday is {report_date}. Below is the latest sentiment and financial data for 5 major Indian auto companies:\n\n{company_block}\n\nSector average sentiment: {sector_avg}/10\nTop sentiment company: {top_company} ({top_score}/10)\nWeakest sentiment company: {bottom_company} ({bottom_score}/10)\n\nWrite a professional 3-paragraph sector intelligence report covering:\n1. Overall sector sentiment and what the data suggests about market conditions\n2. Standout companies \u2014 both positive and negative \u2014 and what's driving the divergence\n3. Investment outlook based on the signals, RSI levels, and profitability data\n\nRules:\n- Be specific, cite the numbers from the data\n- Tone must be objective and data-driven\n- No disclaimers, no generic filler\n- Maximum 250 words"
+}

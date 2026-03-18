@@ -1,0 +1,63 @@
+{
+  "report_date": "18 March 2026",
+  "generated_at": "2026-03-18T07:22:46.345286",
+  "sector_avg_sentiment": 5.41,
+  "top_company": "Bajaj Auto",
+  "top_score": 5.86,
+  "bottom_company": "Maruti Suzuki",
+  "bottom_score": 5.06,
+  "report_text": "Indian Automobile Sector Intelligence Report (18 March 2026)\n\nThe Indian automobile sector's overall sentiment remains neutral, with an average sentiment score of 5.41/10. This suggests that market conditions are stable, with no significant bullish or bearish trends. However, the sector's sentiment is slightly above the neutral threshold, indicating a slight bias towards optimism. The sector's average RSI (Relative Strength Index) of 37.4% also suggests that the sector is currently in a neutral state, neither overbought nor oversold.\n\nStandout companies in the sector include Bajaj Auto, with a sentiment score of 5.86/10, driven by its strong revenue growth of 23.1% and profitability score of 7.0/10. In contrast, Tata Motors is the weakest sentiment company, with a score of 5.00/10, due to its negative revenue growth of -38.3% and low profitability score of 5.0/10. Maruti Suzuki also lags behind, with a sentiment score of 5.06/10, driven by its low RSI of 31.6% and negative price performance relative to its 20-day moving average (-8.9%).\n\nBased on the signals, RSI levels, and profitability data, the investment outlook for the sector is cautiously optimistic. While the sector's overall sentiment is neutral, the presence of strong performers like Bajaj Auto and Mahindra & Mahindra suggests that there are opportunities for growth. However, investors should exercise caution when considering Tata Motors and Maruti Suzuki, given their weak performance and low profitability scores. A closer look at the sector's fundamentals and technical indicators is recommended before making any investment decisions.",
+  "generated_by": "llama-3.1-8b-instant",
+  "companies": [
+    {
+      "company": "Maruti Suzuki",
+      "signal": "NEUTRAL",
+      "sentiment_score": 5.0,
+      "momentum": 0.0,
+      "rsi_14": 31.63,
+      "price_vs_ma20": -0.0887,
+      "profitability_score": 7.0,
+      "reasoning": "sentiment 5.0/10; momentum 0.00; price vs MA20: -8.87%"
+    },
+    {
+      "company": "Tata Motors",
+      "signal": "NEUTRAL",
+      "sentiment_score": 5.0,
+      "momentum": 0.0,
+      "rsi_14": 32.73,
+      "price_vs_ma20": -0.1066,
+      "profitability_score": 5.0,
+      "reasoning": "sentiment 5.0/10; momentum 0.00; price vs MA20: -10.66%"
+    },
+    {
+      "company": "Mahindra & Mahindra",
+      "signal": "NEUTRAL",
+      "sentiment_score": 5.0,
+      "momentum": 0.0,
+      "rsi_14": 39.9,
+      "price_vs_ma20": -0.0543,
+      "profitability_score": 6.0,
+      "reasoning": "sentiment 5.0/10; momentum 0.00; price vs MA20: -5.43%"
+    },
+    {
+      "company": "Bajaj Auto",
+      "signal": "NEUTRAL",
+      "sentiment_score": 5.0,
+      "momentum": 0.0,
+      "rsi_14": 39.63,
+      "price_vs_ma20": -0.0552,
+      "profitability_score": 7.0,
+      "reasoning": "sentiment 5.0/10; momentum 0.00; price vs MA20: -5.52%"
+    },
+    {
+      "company": "Hero MotoCorp",
+      "signal": "NEUTRAL",
+      "sentiment_score": 5.0,
+      "momentum": 0.0,
+      "rsi_14": 43.78,
+      "price_vs_ma20": -0.0306,
+      "profitability_score": 6.5,
+      "reasoning": "sentiment 5.0/10; momentum 0.00; price vs MA20: -3.06%"
+    }
+  ]
+}

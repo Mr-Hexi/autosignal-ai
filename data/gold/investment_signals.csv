@@ -1,0 +1,6 @@
+company,signal_date,signal,sentiment_score,momentum,price_vs_ma20,profitability_score,rsi_14,close,ma_20,reasoning
+Maruti Suzuki,2026-03-18T07:12:36.079522,NEUTRAL,5.0,0.0,-0.0887,7.0,31.63,12972.0,14234.2,sentiment 5.0/10; momentum 0.00; price vs MA20: -8.87%
+Tata Motors,2026-03-18T07:12:36.081045,NEUTRAL,5.0,0.0,-0.1066,5.0,32.73,319.2,357.27,sentiment 5.0/10; momentum 0.00; price vs MA20: -10.66%
+Mahindra & Mahindra,2026-03-18T07:12:36.081045,NEUTRAL,5.0,0.0,-0.0543,6.0,39.9,3128.9,3308.69,sentiment 5.0/10; momentum 0.00; price vs MA20: -5.43%
+Bajaj Auto,2026-03-18T07:12:36.081045,NEUTRAL,5.0,0.0,-0.0552,7.0,39.63,9110.0,9642.3,sentiment 5.0/10; momentum 0.00; price vs MA20: -5.52%
+Hero MotoCorp,2026-03-18T07:12:36.081582,NEUTRAL,5.0,0.0,-0.0306,6.5,43.78,5355.0,5523.78,sentiment 5.0/10; momentum 0.00; price vs MA20: -3.06%
