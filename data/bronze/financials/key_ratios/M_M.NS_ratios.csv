@@ -1,0 +1,2 @@
+ticker,company,ingested_at,trailing_pe,forward_pe,price_to_book,enterprise_to_ebitda,profit_margin,operating_margin,gross_margin,return_on_equity,return_on_assets,revenue_growth,earnings_growth,debt_to_equity,current_ratio,free_cashflow,total_revenue,total_debt,eps_trailing,eps_forward,book_value,market_cap,52w_high,52w_low,dividend_yield
+M&M.NS,Mahindra & Mahindra,2026-03-18T06:14:26.388398,23.080223,22.132584,4.3504395,13.2,0.08326,0.16723,0.38946,,,0.264,0.468,132.29,,,1888898121728,1297657364480,139.86,145.84831,741.994,3875126378496,3839.9,2425.0,0.81
