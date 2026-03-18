@@ -77,7 +77,7 @@ def fetch_concalls(bse: BSE, scrip_code: str, company: str) -> pd.DataFrame:
 
         attachment = item.get("ATTACHMENTNAME", "") or item.get("XML_NAME", "") or ""
         pdf_url = (
-            f"https://www.bseindia.com/xml-data/corpfiling/AttachHis/{attachment}.pdf"
+            f"https://www.bseindia.com/xml-data/corpfiling/AttachHis/{attachment}"
             if attachment else ""
         )
 
@@ -158,7 +158,7 @@ def run():
                 continue
 
             # Extract text from first 2 PDFs per company
-            pdf_rows = df[df["document_url"] != ""].head(2)
+            pdf_rows = df[df["document_url"] != ""]
             if not pdf_rows.empty:
                 print(f"  Extracting text from {len(pdf_rows)} PDFs...")
                 for idx, row in pdf_rows.iterrows():

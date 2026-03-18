@@ -1,0 +1,6 @@
+ticker,company,trailing_pe,forward_pe,price_to_book,ev_to_ebitda,profit_margin_pct,operating_margin_pct,gross_margin_pct,roe_pct,roa_pct,revenue_growth_pct,earnings_growth_pct,debt_to_equity,current_ratio,free_cashflow_cr,total_revenue_cr,total_debt_cr,market_cap_cr,eps_trailing,eps_forward,book_value,dividend_yield_pct,week52_high,week52_low,profitability_score,processed_at
+MARUTI.NS,Maruti Suzuki,27.65,22.77,4.14,20.52,8.69,7.69,27.46,,,28.7,4.1,0.1,,,171773.6,99.9,412716.24,474.78,576.51,3172.5,104.0,17370.0,11059.45,7.0,2026-03-18T06:48:09.050954
+TMPV.NS,Tata Motors,30.71,7.97,1.09,6.75,21.16,-3.65,43.82,,,-38.3,,56.13,,,402113.01,67258.0,120229.62,10.63,40.97,300.66,188.0,419.0,306.9,5.0,2026-03-18T06:48:09.050954
+M&M.NS,Mahindra & Mahindra,23.08,22.13,4.35,13.2,8.33,16.72,38.95,,,26.4,46.8,132.29,,,188889.81,129765.74,387512.64,139.86,145.85,741.99,81.0,3839.9,2425.0,6.0,2026-03-18T06:48:09.052804
+BAJAJ-AUTO.NS,Bajaj Auto,29.02,23.27,7.54,18.35,15.05,24.32,34.53,,,23.1,25.0,57.26,,,59023.84,19564.61,257694.24,317.94,396.52,1223.78,231.0,10187.0,7089.35,7.0,2026-03-18T06:48:09.052804
+HEROMOTOCO.NS,Hero MotoCorp,20.13,18.52,5.22,15.2,12.26,13.04,33.6,,,21.7,14.4,3.4,,,44402.77,718.07,109569.16,272.03,295.65,1049.69,327.0,6388.5,3344.0,6.5,2026-03-18T06:48:09.052804
