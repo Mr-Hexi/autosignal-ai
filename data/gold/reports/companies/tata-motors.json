@@ -1,0 +1,80 @@
+{
+  "company": "Tata Motors",
+  "slug": "tata-motors",
+  "ticker": "TMPV.NS",
+  "report_date": "18 March 2026",
+  "generated_at": "2026-03-18T09:29:27.004041",
+  "sentiment_score": 5.13,
+  "article_count": 99,
+  "transcript_count": 45,
+  "sentiment_intensity": 23.6245,
+  "signal": "NEUTRAL",
+  "momentum": 0.0,
+  "rsi_14": 32.73,
+  "price_vs_ma20": -0.1066,
+  "profitability_score": 5.0,
+  "reasoning": "sentiment 5.0/10; momentum 0.00; price vs MA20: -10.66%",
+  "close": 319.20001220703125,
+  "ma_20": 357.27,
+  "volatility_20d": 0.025396,
+  "profit_margin_pct": 21.16,
+  "revenue_growth_pct": -38.3,
+  "trailing_pe": 30.63,
+  "eps_trailing": 10.63,
+  "debt_to_equity": 56.13,
+  "market_cap_cr": 119879.79,
+  "roe_pct": NaN,
+  "recent_events": [
+    {
+      "subject": "Cessation",
+      "broadcast_date": "08-Mar-2026 11:31:20",
+      "attachment_url": "https://nsearchives.nseindia.com/corporate/TATAMOTORSSJS_08032026113105_LetterNSEBSEOPBhatt.pdf"
+    },
+    {
+      "subject": "Press Release",
+      "broadcast_date": "01-Mar-2026 12:51:26",
+      "attachment_url": "https://nsearchives.nseindia.com/corporate/TATAMOTORSSJS_01032026125037_NSEBSEPVSALES.pdf"
+    },
+    {
+      "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+      "broadcast_date": "19-Feb-2026 17:33:04",
+      "attachment_url": "https://nsearchives.nseindia.com/corporate/TATAMOTORSSJS_19022026173251_LetterNSEBSEAnalystMeet.pdf"
+    },
+    {
+      "subject": "ESOP/ESOS/ESPS",
+      "broadcast_date": "18-Feb-2026 17:39:48",
+      "attachment_url": "https://nsearchives.nseindia.com/corporate/TATAMOTORSSJS_18022026173826_NSEBSEESOP.pdf"
+    },
+    {
+      "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+      "broadcast_date": "11-Feb-2026 20:51:38",
+      "attachment_url": "https://nsearchives.nseindia.com/corporate/TATAMOTORSSJS_11022026205129_NSEBSETRANSCRIPT_signed.pdf"
+    }
+  ],
+  "news_samples": [
+    "Cessation. Tata Motors Passenger Vehicles Limited has informed the Exchange regarding Cessation of Mr Om Prakash Bhatt as Non- Executive Independent Director of the company w.e.f. March 08, 2026.",
+    "Press Release. Tata Motors Passenger Vehicles Limited has informed the Exchange regarding a press release dated March 01, 2026, titled Tata Motors Passenger Vehicles Limited (formerly Tata Motors Limited) Monthly Sales - February 2026 .",
+    "ESOP ESOS ESPS. Tata Motors Passenger Vehicles Limited has informed the Exchange regarding Allotment of 46,190 Ordinary Equity Shares.",
+    "Copy of Newspaper Publication. Tata Motors Passenger Vehicles Limited has informed the Exchange about Copy of Newspaper Publication",
+    "Investor Presentation. Tata Motors Passenger Vehicles Limited has informed the Exchange about Investor Presentation"
+  ],
+  "transcript_samples": [
+    {
+      "chunk_text": "BSE Limited National Stock Exchange of India Ltd. First Floor, New Trading Ring Listing Compliance Department Rotunda Building, P J Towers, Exchange Plaza, Bandra Kurla Complex, Dalal Street, Fort, Mumbai 400 001 Bandra (E), Mumbai 400 051 February 19, 2026 Sc no. - 18872 Dear Sirs/Madam, Sub: Intimation of Analysts / Institutional Investors Meeting(s) Pursuant to Regulation 30 of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, given below is the details of the physical group meeting scheduled with the Analysts / Institutional Investors on February 24, 2026 and February 26, 2026: Date Meeting(s) Scheduled with Time 24-Feb-2026 Bajaj FinServ Ltd. 10:00 AM 24-Feb-2026 Edelweiss Asset Management 10:00 AM 24-Feb-2026 HDFC Life Insurance Co. Ltd. 10:00 AM 24-Feb-2026 Invesco Asset Management (UK) 10:00 AM 24-Feb-2026 Invesco Asset Management (India) 10:00 AM 24-Feb-2026 Khazanah Nasional 10:00 AM 24-Feb-2026 Matthews Asia 10:00 AM 24-Feb-2026 Premji Investments 10:00 AM 24-Feb-2026 SBI Life Insurance 10:00 AM 24-Feb-2026 Schroder Investment Management 10:00 AM 24-Feb-2026 Unifi MF 10:00 AM 24-Feb-2026 White Oak Capital 10:00 AM 24-Feb-2026 Allard Partners 12:00 noon 24-Feb-2026 ASK Hedge Solutions 12:00 noon 24-Feb-2026 Bajaj Life Insurance 12:00 noon 24-Feb-2026 Balyasny Asset Management 12:00 noon 24-Feb-2026 Banyan Tree Advisors Pvt Ltd 12:00 noon 24-Feb-2026 Blackrock 12:00 noon 24-Feb-2026 BOI Mutual Fund 12:00 noon 24-Feb-2026 Canara HSBC Life Insurance 12:00 noon 24-Feb-2026 Carnelian Asset Management 12:00 noon 24-Feb-2026 ChrysCapital Advisors LLP 12:00 noon 24-Feb-2026 DT Partners 12:00 noon 24-Feb-2026 Enam Asset Management 12:00 noon 24-Feb-2026 Go Digit General Insurance 12:00 noon 24-Feb-2026 IndiaFirst Life Insurance Co. Ltd. 12:00 noon 24-Feb-2026 ITI Asset Management Ltd 12:00 noon 24-Feb-2026 Kotak Alternate Asset Managers 12:00 noon 24-Feb-2026 Kotak Securities Ltd 12:00 noon 24-Feb-2026 Mahindra Manulife Investment Management 12:00 noon 24-Feb-2026 New Horizon Investments 12:00 noon 24-Feb-2026 Oaklane Capital 12:00 noon 24-Feb-2026 Old Bridge Capital Management 12:00 noon 24-Feb-2026 One Up Financial Consultants 12:00 noon 24-Feb-2026 Optimas Capital 12:00 noon 24-Feb-2026 Oxbow Capital 12:00 noon 24-Feb-2026 Patni Financial Advisors (P) Ltd. 12:00 noon 24-Feb-2026 PGIM India Mutual Fund 12:00 noon 24-Feb-2026 Pinpoint Asset Management Limited 12:00 noon 24-Feb-2026 PPFAS Asset Management 12:00 noon 24-Feb-2026 Prudent Investment Managers 12:00 noon 24-Feb-2026 Quest Investments 12:00 noon 24-Feb-2026 Reliance General Insurance Co. Ltd. 12:00 noon 24-Feb-2026 Reliance Nippon Life Insurance Co. Ltd. 12:00 noon 24-Feb-2026 Sage One Investment Advisors LLP 12:00 noon 24-Feb-2026 Sundaram",
+      "quarter": "Q4FY25",
+      "filing_date": "2026-02-19T17:34:53.827"
+    },
+    {
+      "chunk_text": "Alternates 12:00 noon 24-Feb-2026 Tara Capital Partners India Pvt Ltd. 12:00 noon 24-Feb-2026 Tata AIA Life Insurance Co. Ltd. 12:00 noon 24-Feb-2026 ValueQuest Investment Advisors 12:00 noon 24-Feb-2026 360 One WAM 2:00 PM 24-Feb-2026 Alchemy Capital 2:00 PM 24-Feb-2026 Amova Asset Management Asia Ltd 2:00 PM 24-Feb-2026 ASK Wealth Advisors Pvt. Ltd. 2:00 PM 24-Feb-2026 Balyasny Asset Management 2:00 PM 24-Feb-2026 Enam Holdings Pvt. Ltd. 2:00 PM 24-Feb-2026 HDFC Life Insurance Co. Ltd. 2:00 PM 24-Feb-2026 Helios Capital Management 2:00 PM 24-Feb-2026 HSBC Global AM 2:00 PM 24-Feb-2026 Mahindra Manulife Investment Management 2:00 PM 24-Feb-2026 Marshall Wace 2:00 PM 24-Feb-2026 Millennium Capital 2:00 PM 24-Feb-2026 Norges Bank Investment Management 2:00 PM 26-Feb-2026 Aditya Birla Pension Fund 2:00 PM 26-Feb-2026 Aditya Birla Sun Life Amc 2:00 PM 26-Feb-2026 Ask Hedge Solutions 2:00 PM 26-Feb-2026 Ask Investment Managers 2:00 PM 26-Feb-2026 Axis Pension Fund Management Limited 2:00 PM 26-Feb-2026 Bandhan Life Insurance 2:00 PM 26-Feb-2026 Bandhan Mutual Fund 2:00 PM 26-Feb-2026 Canara Robeco 2:00 PM 26-Feb-2026 Carnelian Capital Advisors Llp 2:00 PM 26-Feb-2026 Dalal Broacha Portfolio Managers Pvt. Ltd 2:00 PM 26-Feb-2026 DSP Investment Managers 2:00 PM 26-Feb-2026 HDFC Ergo General Insurance 2:00 PM 26-Feb-2026 Helios Capital Management Pte Ltd 2:00 PM 26-Feb-2026 ICICI Lombard General Insurance Co Ltd 2:00 PM 26-Feb-2026 ICICI Prudential Pension Funds Management 2:00 PM 26-Feb-2026 Karma Capital Advisor Private Limited 2:00 PM 26-Feb-2026 Mahindra Manulife Mutual Fund 2:00 PM 26-Feb-2026 Marval Capital Ltd 2:00 PM 26-Feb-2026 Motilal Oswal Amc 2:00 PM 26-Feb-2026 New Vernon Advisers Lp 2:00 PM 26-Feb-2026 North Rock Capital Mgmt Sg Pte Ltd 2:00 PM 26-Feb-2026 PNB Metlife India Insurance Co. Ltd. 2:00 PM 26-Feb-2026 Quest Investment 2:00 PM 26-Feb-2026 Subhkam Venture 2:00 PM 26-Feb-2026 Tarish Investments 2:00 PM 26-Feb-2026 Tata Aia Life Insurance Co. Ltd. 2:00 PM 26-Feb-2026 Temasek Group 2:00 PM 26-Feb-2026 The Regents of The University Of California 2:00 PM 26-Feb-2026 Unifi Mutual Fund 2:00 PM 26-Feb-2026 UTI Mutual Fund 2:00 PM 26-Feb-2026 UTI Pension Fund Limited 2:00 PM Please note that the above shall be subject to changes, if any. This is for information of the Exchanges and the Members. Yours faithfully, Tata Motors Passenger Vehicles Limited (formerly Tata Motors Limited) Maloy Kumar Gupta Company Secretary & Chief Legal Officer",
+      "quarter": "Q4FY25",
+      "filing_date": "2026-02-19T17:34:53.827"
+    },
+    {
+      "chunk_text": "BSE Limited National Stock Exchange of India Ltd. Phiroze Jeejeebhoy Towers, Exchange Plaza, C-1, Block G, Dalal Street, Fort, Bandra Kurla Complex, Mumbai - 400 001 Bandra(E), Mumbai - 400 051 February 11, 2026 Sc no. - 18869 Dear Sir/Madam, Sub: Transcript of the Earnings/Conference call Pursuant to Regulation 30 read with Para A of Part A of Schedule III of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, we are enclosing herewith the transcript of the earnings/conference call conducted after the Meeting of Board of Directors held on February 5, 2026 on the Audited Standalone Financial Results and Unaudited Consolidated Financial Results of Tata Motors Passenger Vehicles Limited (formerly Tata Motors Limited) ( the Company ) for the third quarter and nine months ended December 31, 2025. The same is also available on the website of the Company at https://cars.tatamotors.com/investors/financial-information/quarterly-results.html. This is for information of the Exchanges and the Members. Thanking you. Yours faithfully, Tata Motors Passenger Vehicles Limited (formerly Tata Motors Limited) Maloy Kumar Gupta Company Secretary & Chief Legal Officer Encl: as above Tata Motors Passenger Vehicles Limited February 5, 2026 Tata Motors Passenger Vehicles Group Q3 FY26 earnings call transcript MANAGEMENT: MR. SHAILESH CHANDRA MD & CEO, TATA MOTORS PASSENGER VEHICLES LIMITED MR. PB BALAJI CEO, JAGUAR LAND ROVER MR. DHIMAN GUPTA CFO, TATA MOTORS PASSENGER VEHICLES LIMITED MR. RICHARD MOLYNEUX CFO, JAGUAR LAND ROVER Presentation Anish Gurav Good day and welcome to Tata Motors Passenger Vehicles Limited Q3 FY26 Earnings Call. Today we have with us Mr. Shailesh Chandra, MD and CEO, Tata Motors Passenger Vehicles Limited; Mr. P.B. Balaji, CEO, Jaguar Land Rover; Mr. Dhiman Gupta, CFO, Tata Motors Passenger Vehicles Limited and Mr. Richard Molyneux, CFO, Jaguar Land Rover and we also have our colleagues from the Investor Relations team. Today we plan to walk you through the results presentation followed by Q&A. As a reminder, all participants will be in listen-only mode and we will be taking the questions via Teams platform. The same is already open to you to submit the questions. You are requested to mention your name and the name of organization while submitting the questions. I now hand over to Mr. Dhiman Gupta to take over. Over to you, sir. Dhiman Gupta Thank you, Anish. Safe Harbor statement, nothing material to",
+      "quarter": "Q4FY25",
+      "filing_date": "2026-02-11T20:55:33.24"
+    }
+  ],
+  "report_text": "**Company Intelligence Report: Tata Motors**\n\n**Sentiment Analysis and News Drivers**\n\nTata Motors' sentiment score stands at 5.13/10, indicating a neutral stance among market participants. The neutral sentiment is driven by a lack of momentum, with a momentum score of 0.0. Our analysis of 99 news chunks and 45 transcript chunks reveals that recent events, such as the cessation of certain operations on March 8, 2026, and the press release on March 1, 2026, have contributed to the neutral sentiment. These events have likely weighed on investor sentiment, contributing to the current neutral stance.\n\n**Financial Health and Stock Performance Assessment**\n\nTata Motors' financial health is a mixed bag. The company's profit margin stands at 21.16%, which is a healthy indicator. However, revenue growth has been sluggish, with a decline of 38.3% over the past quarter. The trailing PE ratio of 30.63 and EPS of 10.63 suggest that the stock is trading at a premium. The stock's performance has been weak, with a 20-day moving average decline of 10.7% and an RSI of 32.7, indicating oversold conditions. The 3-month volatility of 0.0254 suggests a relatively stable stock.\n\n**Investment Outlook and Risks**\n\nGiven the neutral sentiment and mixed financials, we believe that Tata Motors' investment outlook is cautious. The company's revenue growth concerns and premium valuation make it a less attractive bet. However, the company's healthy profit margin and stable stock volatility suggest that it may be a good opportunity to buy on dips. Key risks include the company's ability to turnaround revenue growth and the impact of recent events on investor sentiment. Opportunities include the potential for a rebound in revenue growth and a correction in the stock price.",
+  "generated_by": "llama-3.1-8b-instant"
+}

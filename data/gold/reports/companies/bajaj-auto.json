@@ -1,0 +1,80 @@
+{
+  "company": "Bajaj Auto",
+  "slug": "bajaj-auto",
+  "ticker": "BAJAJ-AUTO.NS",
+  "report_date": "18 March 2026",
+  "generated_at": "2026-03-18T09:29:29.055028",
+  "sentiment_score": 5.82,
+  "article_count": 98,
+  "transcript_count": 30,
+  "sentiment_intensity": 26.7436,
+  "signal": "NEUTRAL",
+  "momentum": 0.0,
+  "rsi_14": 39.63,
+  "price_vs_ma20": -0.0552,
+  "profitability_score": 7.0,
+  "reasoning": "sentiment 5.0/10; momentum 0.00; price vs MA20: -5.52%",
+  "close": 9110.0,
+  "ma_20": 9642.3,
+  "volatility_20d": 0.020572,
+  "profit_margin_pct": 15.05,
+  "revenue_growth_pct": 23.1,
+  "trailing_pe": 29.09,
+  "eps_trailing": 317.94,
+  "debt_to_equity": 57.26,
+  "market_cap_cr": 258252.76,
+  "roe_pct": NaN,
+  "recent_events": [
+    {
+      "subject": "Copy of Newspaper Publication",
+      "broadcast_date": "13-Mar-2026 14:35:23",
+      "attachment_url": "https://nsearchives.nseindia.com/corporate/lkwalimbe_bajajauto_co_in_13032026143445_SE_-_Special_Window.pdf"
+    },
+    {
+      "subject": "Credit Rating",
+      "broadcast_date": "07-Mar-2026 13:38:43",
+      "attachment_url": "https://nsearchives.nseindia.com/corporate/lkwalimbe_bajajauto_co_in_07032026133747_SE_-_BACL_Credit_Rating_07_March_2026.pdf"
+    },
+    {
+      "subject": "Agreements",
+      "broadcast_date": "06-Mar-2026 21:03:50",
+      "attachment_url": "https://nsearchives.nseindia.com/corporate/lkwalimbe_bajajauto_co_in_06032026210332_SE_Intimation_BV_Bank_Loan_Termination_Signed.pdf"
+    },
+    {
+      "subject": "Agreements",
+      "broadcast_date": "05-Mar-2026 17:19:00",
+      "attachment_url": "https://nsearchives.nseindia.com/corporate/lkwalimbe_bajajauto_co_in_05032026171843_SE_Intimation_BV_KTM_Loan_5_March_2026_Signed.pdf"
+    },
+    {
+      "subject": "Press Release",
+      "broadcast_date": "02-Mar-2026 08:56:31",
+      "attachment_url": "https://nsearchives.nseindia.com/corporate/lkwalimbe_bajajauto_co_in_02032026085616_Sales_Report_for_Feb_2026.pdf"
+    }
+  ],
+  "news_samples": [
+    "Copy of Newspaper Publication. Bajaj Auto Limited has informed the Exchange about Copy of Newspaper Publication regarding the Notice of Special Window for Transfer and Dematerialisation of Physical Securities",
+    "Credit Rating. Bajaj Auto Limited has informed the Exchange about Credit Rating",
+    "Agreements. Bajaj Auto Limited has informed the Exchange about repayment of loans and resultant termination of loan agreements entered into by Bajaj Auto International Holdings BV, a wholly owned subsidiary of Bajaj Auto Limited.",
+    "Press Release. Bajaj Auto Limited has informed the Exchange regarding a press release dated March 02, 2026, titled Sales for the month of February 2026 .",
+    "General Updates. Bajaj Auto Limited has informed the Exchange about ad-hoc announcement made by Bajaj Mobility AG (formerly PIERER Mobility AG), a step-down subsidiary of Bajaj Auto Limited titled - International banking consortium grants KTM AG a refinancing loan to strengthen its financial foundation."
+  ],
+  "transcript_samples": [
+    {
+      "chunk_text": "26 February 2026 To To Corporate Relations Department Corporate Listing Department BSE Limited National Stock Exchange of India Ltd. 1st Floor, New Trading Ring Exchange Plaza, 5th Floor Rotunda Building, P J Tower Plot No.C-1, G Block Dalal Street Bandra-Kurla Complex Mumbai 400 001 Bandra (East), Mumbai 400 051 Email: corp.relations@bseindia.com Email: cmlist@nse.co.in BSE Code: 532977 NSE Code: BAJAJ-AUTO Subject: Pursuant to Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, (SEBI Listing Regulations, 2015) Dear Sir/Madam, Pursuant to Regulation 30 read with Schedule III to the SEBI Listing Regulations, 2015, the schedule of the analyst / institutional investor meeting is as follows: Date Particulars Location Mode 13 March 2026 ICICI Securities: Group Meeting Pune Physical Notes: 1. Date of aforesaid meeting(s)/call(s) are subject to change due to exigencies on the part of Investor/Company. 2. No Unpublished Price Sensitive Information will be shared during the meeting(s). We request you to take this on record. Thanking you, Yours faithfully, For Bajaj Auto Limited Rajiv Gandhi Company Secretary & Compliance Officer ACS 11263 Registered Office Akurdi Pune 411035 India CIN L65993PN2007PLC130076",
+      "quarter": "Q4FY25",
+      "filing_date": "2026-02-26T16:48:10.46"
+    },
+    {
+      "chunk_text": "26 February 2026 To To Corporate Relations Department Corporate Listing Department BSE Limited National Stock Exchange of India Ltd. 1st Floor, New Trading Ring Exchange Plaza, 5th Floor Rotunda Building, P J Tower Plot No.C-1, G Block Dalal Street Bandra-Kurla Complex Mumbai 400 001 Bandra (East), Mumbai 400 051 Email: corp.relations@bseindia.com Email: cmlist@nse.co.in BSE Code: 532977 NSE Code: BAJAJ-AUTO Subject: Pursuant to Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, (SEBI Listing Regulations, 2015) Dear Sir/Madam, Pursuant to Regulation 30 read with Schedule III to the SEBI Listing Regulations, 2015, the schedule of the analyst / institutional investor meeting is as follows: Date Particulars Location Mode 12 March 2026 Investec: Group Meeting Pune Physical Notes: 1. Date of aforesaid meeting(s)/call(s) are subject to change due to exigencies on the part of Investor/Company. 2. No Unpublished Price Sensitive Information will be shared during the meeting(s). We request you to take this on record. Thanking you, Yours faithfully, For Bajaj Auto Limited Rajiv Gandhi Company Secretary & Compliance Officer ACS 11263 Registered Office Akurdi Pune 411035 India CIN L65993PN2007PLC130076",
+      "quarter": "Q4FY25",
+      "filing_date": "2026-02-26T16:45:48.74"
+    },
+    {
+      "chunk_text": "06 February 2026 To To Corporate Relations Department Corporate Listing Department BSE Limited National Stock Exchange of India 1st Floor, New Trading Ring Ltd. Rotunda Building, P J Tower Exchange Plaza, 5th Floor Dalal Street Plot No.C-1, G Block Mumbai 400 001 Bandra-Kurla Complex Bandra (East), Mumbai 400 051 BSE Code: 532977 NSE Code: BAJAJ-AUTO Subject: Transcript of Conference Call held in respect of the Company s Q3-FY26 results. Dear Sirs/Madam, Please find enclosed the transcript of the conference call held on 30 January 2026 in respect of the Company s Q3-FY26 results. The transcript will also be hosted on the Company s website at https://www.bajajauto.com/investors/financial-and-operational-performance Kindly take this on record. Thanking you, Yours faithfully, For Bajaj Auto Limited Rajiv Gandhi Company Secretary & Compliance Officer ACS 11263 Encl: as above Registered Office Akurdi Pune 411035 India CIN L65993PN2007PLC130076 Bajaj Auto Limited Q3 FY '26 Results Conference Call January 30, 2026 MANAGEMENT: MR. RAKESH SHARMA EXECUTIVE DIRECTOR BAJAJ AUTO LIMITED MR. DINESH THAPAR CHIEF FINANCIAL OFFICER BAJAJ AUTO LIMITED MR. ANAND NEWAR HEAD, INVESTOR RELATIONS BAJAJ AUTO LIMITED Page 1 of 19 Bajaj Auto Limited January 30, 2026 Moderator: Ladies and gentlemen, good day, and welcome to Q3 FY'26 Results Conference Call of Bajaj Auto Limited. My name is Neerav, and I'll be your co-ordinator. As a reminder, all participant lines will be in the listen-only mode and there will be an opportunity for you to ask questions after the initial remarks from the management. Should you need assistance during this conference call, please signal an operator by pressing * , then 0 on your touchtone phone. Please note that this conference is being recorded. I now hand the conference over to Mr. Anand Newar, Head, Investor Relations from Bajaj Auto Limited. Thank you, and over to you, Mr. Newar. Anand Newar: Thank you, Neerav. Good evening, everyone, and thank you for joining us for the call today. Welcome to Bajaj Auto's Q3 FY'26 Earnings Conference Call. Let me begin the call with wishing all of you a happy and prosperous New Year. On today's call, we have with us Mr. Rakesh Sharma, Executive Director; and Mr. Dinesh Thapar, Chief Financial Officer. We will begin our call with the opening remarks from Rakesh on the business and operational performance for the quarter, followed by",
+      "quarter": "Q4FY25",
+      "filing_date": "2026-02-06T16:57:55.4"
+    }
+  ],
+  "report_text": "**Bajaj Auto Company Intelligence Report**\n\n**Sentiment Analysis**\n\nThe current sentiment score for Bajaj Auto stands at 5.82/10, indicating a neutral stance among market participants. The sentiment is largely driven by news and transcript analysis, with 98 news chunks and 30 transcript chunks analyzed. The neutral sentiment is likely due to the lack of significant momentum, as indicated by a momentum score of 0.0. However, a closer look at the news chunks reveals that recent agreements and press releases have contributed to the neutral sentiment, with no significant negative or positive news driving the sentiment.\n\n**Financial Health and Stock Performance**\n\nBajaj Auto's financial health is robust, with a profit margin of 15.05% and revenue growth of 23.1%. The company's profitability score stands at 7.0/10, indicating a stable and profitable business model. The stock performance is also noteworthy, with a current price of Rs. 9110.00, a 5.5% decline from its 20-day moving average, and an RSI of 39.6, indicating a potential buying opportunity. The 3-month volatility is relatively low at 0.0206, suggesting a stable stock price.\n\n**Investment Outlook**\n\nGiven the company's robust financial health and stable stock performance, we believe that Bajaj Auto presents an attractive investment opportunity. The stock's current price is relatively undervalued, with a trailing PE of 29.09, indicating a potential upside. However, investors should be aware of the risks associated with the neutral sentiment and the potential for a decline in stock price. Additionally, the company's dependence on the Indian automobile market and the potential impact of regulatory changes on the industry are key risks to consider. Overall, we recommend a \"hold\" rating for Bajaj Auto, with a potential upside of 10-15% over the next quarter.",
+  "generated_by": "llama-3.1-8b-instant"
+}

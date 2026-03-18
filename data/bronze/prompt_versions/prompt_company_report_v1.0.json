@@ -1,0 +1,12 @@
+{
+  "version": "v1.0",
+  "task": "company_report",
+  "model_name": "llama-3.1-8b-instant",
+  "created_at": "2026-03-18",
+  "is_active": true,
+  "parameters": {
+    "max_tokens": 600,
+    "temperature": 0.3
+  },
+  "prompt_template": "You are a senior equity analyst covering Indian automobile stocks.\n\nToday is {report_date}. Analyze the following data for {company}:\n\nSENTIMENT:\n- Sentiment Score: {sentiment_score}/10\n- Signal: {signal}\n- Momentum: {momentum}\n- News chunks analyzed: {article_count}\n- Transcript chunks analyzed: {transcript_count}\n\nSTOCK PERFORMANCE:\n- Current Price: Rs. {close}\n- vs 20-day MA: {price_vs_ma20_pct}%\n- RSI (14-day): {rsi_14}\n- 3-month volatility: {volatility}\n\nFINANCIALS:\n- Profit Margin: {profit_margin}%\n- Revenue Growth: {revenue_growth}%\n- Profitability Score: {profitability_score}/10\n- Trailing PE: {trailing_pe}\n- EPS: {eps}\n\nRECENT EVENTS:\n{events_summary}\n\nWrite a professional 3-paragraph company intelligence report covering:\n1. Current sentiment and what news/transcripts are driving it\n2. Financial health and stock performance assessment\n3. Investment outlook with specific risks and opportunities\n\nRules:\n- Be specific, cite the numbers\n- Objective and data-driven tone\n- No disclaimers\n- Maximum 300 words"
+}

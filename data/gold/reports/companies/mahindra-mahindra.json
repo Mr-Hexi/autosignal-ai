@@ -1,0 +1,80 @@
+{
+  "company": "Mahindra & Mahindra",
+  "slug": "mahindra-mahindra",
+  "ticker": "M&M.NS",
+  "report_date": "18 March 2026",
+  "generated_at": "2026-03-18T09:29:28.022556",
+  "sentiment_score": 5.22,
+  "article_count": 105,
+  "transcript_count": 31,
+  "sentiment_intensity": 24.3432,
+  "signal": "NEUTRAL",
+  "momentum": 0.0,
+  "rsi_14": 39.9,
+  "price_vs_ma20": -0.0543,
+  "profitability_score": 6.0,
+  "reasoning": "sentiment 5.0/10; momentum 0.00; price vs MA20: -5.43%",
+  "close": 3128.89990234375,
+  "ma_20": 3308.69,
+  "volatility_20d": 0.025677,
+  "profit_margin_pct": 8.33,
+  "revenue_growth_pct": 26.4,
+  "trailing_pe": 23.06,
+  "eps_trailing": 139.86,
+  "debt_to_equity": 132.29,
+  "market_cap_cr": 387152.48,
+  "roe_pct": NaN,
+  "recent_events": [
+    {
+      "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+      "broadcast_date": "17-Mar-2026 20:59:35",
+      "attachment_url": "https://nsearchives.nseindia.com/corporate/NishaMandhana_17032026205854_Concluded17032026Nomura.pdf"
+    },
+    {
+      "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+      "broadcast_date": "17-Mar-2026 19:08:19",
+      "attachment_url": "https://nsearchives.nseindia.com/corporate/NishaMandhana_17032026190737_UpcomingAnalystMeet23032026.pdf"
+    },
+    {
+      "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+      "broadcast_date": "17-Mar-2026 18:58:10",
+      "attachment_url": "https://nsearchives.nseindia.com/corporate/NishaMandhana_17032026185702_Concluded17032026.pdf"
+    },
+    {
+      "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+      "broadcast_date": "13-Mar-2026 17:30:02",
+      "attachment_url": "https://nsearchives.nseindia.com/corporate/NishaMandhana_13032026172947_Concluded13032026.pdf"
+    },
+    {
+      "subject": "Updates",
+      "broadcast_date": "12-Mar-2026 18:15:37",
+      "attachment_url": "https://nsearchives.nseindia.com/corporate/ferozebaria_12032026181523_Employeeslist12032026.pdf"
+    }
+  ],
+  "news_samples": [
+    "TCS, Infosys, Wipro and other IT stocks soar up to 4 . Here s what s triggering the surge. IT stocks rallied up to 4 on Wednesday after CLSA retained its Outperform rating on key names, easing concerns around AI-led disruption that had sparked a sharp selloff last month. Coforge and Persistent led gains, rising over 4 each, while TCS, LTIMindtree, HCL Tech, Tech Mahindra and Wipro also posted strong advances.",
+    "Updates. Mahindra Mahindra Limited has informed the Exchange regarding 'Transfer of Equity Shares by Mahindra Mahindra Employees Stock Option Trust to the Stock Option Grantees'.",
+    "General Updates. M M: Mahindra Mahindra Limited has informed the Exchange about Production, Sales and Export figures for the month of February 2026",
+    "News Verification. The Exchange has sought clarification from Mahindra Mahindra Limited with respect to recent news item captioned Indonesia puts vehicle imports from Tata Motors and Mahindra Mahindra on hold.. The response from the Company is attached.",
+    "Rumour Verification - Regulation 30(11). Mahindra Mahindra Limited has informed the Exchange about Rumour Verification - Regulation 30(11)"
+  ],
+  "transcript_samples": [
+    {
+      "chunk_text": "Mahindra & Mahindra Ltd. Mahindra Towers, Dr. G. M. Bhosale Marg, Worli, Mumbai 400 018 India Tel: +91 22 2490 1441 Fax: +91 22 2490 0833 www.mahindra.com 13th March 2026 National Stock Exchange of India Limited BSE Limited \"Exchange Plaza\", 5th Floor, Phiroze Jeejeebhoy Towers, Plot No.C/1, G Block Dalal Street, Fort, Bandra-Kurla Complex Mumbai 400001. Bandra (East), Mumbai 400051. The Luxembourg Stock Exchange London Stock Exchange Plc 35A Boulevard Joseph II, 10 Paternoster Square L-1840 Luxembourg. London EC4M 7LS. Sub: Disclosure under Regulation 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 Outcome of Analyst or Institutional Investor Meeting Dear Sir/Madam, This is in furtherance to our letter dated 10th March 2026 wherein we had given an advance intimation of the Schedule of Analyst or Institutional Investor Meeting, we hereby inform you that the Company today, i.e. 13th March 2026, physically, conducted Investor Meeting in Mumbai engaging with Funds, Investors etc. The said Meeting concluded at 4.20 p.m. (IST). The presentation that was submitted to the Stock Exchange(s) vide our letter dated 11th February 2026 was referred during the Meeting. The said presentation is also available on the Website of the Company at the Weblink: M&M Q3F26 Analyst Meet Presentations deck 11th February 2026 Further, the Company has referred to publicly available documents for discussions and no unpublished price sensitive information has been shared during the aforesaid Meeting. Kindly take the same on record. Yours sincerely, For Mahindra & Mahindra Limited Sailesh Kumar Daga Company Secretary Regd. Office: Gateway Building, Apollo Bunder, Mumbai 400 001, India | Tel: +91 22 6897 5500 | Fax: +91 22 22875485 | Email: group.communication@mahindramail.com | mahindra.com | CIN No. L65990MH1945PLC004558",
+      "quarter": "Q4FY25",
+      "filing_date": "2026-03-13T17:16:08.7"
+    },
+    {
+      "chunk_text": "Mahindra & Mahindra Ltd. Mahindra Towers, Dr. G. M. Bhosale Marg, Worli, Mumbai 400 018 India Tel: +91 22 2490 1441 Fax: +91 22 2490 0833 www.mahindra.com 11th March 2026 National Stock Exchange of India Limited BSE Limited \"Exchange Plaza\", 5th Floor, Phiroze Jeejeebhoy Towers, Plot No.C/1, G Block Dalal Street, Fort, Bandra-Kurla Complex Mumbai 400001. Bandra (East), Mumbai 400051. The Luxembourg Stock Exchange London Stock Exchange Plc 35A Boulevard Joseph II, 10 Paternoster Square L-1840 Luxembourg. London EC4M 7LS. Sub: Disclosure under 30 of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 Participation in Analyst or Institutional Investor Meeting Dear Sir/Madam, This is in furtherance to our letter dated 6th March 2026 wherein we had given an advance intimation of the Schedule of Analyst or Institutional Investor Meeting Schedule, we hereby inform you that the Company virtually participated in the Arihant Bharat Connect Conference held today, i.e. 11th March 2026 in Mumbai engaging with Funds, Investors etc. The said Conference concluded at 3.45 p.m. (IST). The presentation that was submitted to the Stock Exchange(s) vide our letter dated 11th February 2026 was presented during the Conference. The said presentation is also available on the Website of the Company at the Weblink: M&M Q3F26 Analyst Meet Presentations deck 11th February 2026 Further, the Company has referred to publicly available documents for discussions and no unpublished price sensitive information has been shared during the aforesaid Conference. Kindly take the same on record. Yours sincerely, For Mahindra & Mahindra Limited Sailesh Kumar Daga Company Secretary Regd. Office: Gateway Building, Apollo Bunder, Mumbai 400 001, India | Tel: +91 22 6897 5500 | Fax: +91 22 22875485 | Email: group.communication@mahindramail.com | mahindra.com | CIN No. L65990MH1945PLC004558",
+      "quarter": "Q4FY25",
+      "filing_date": "2026-03-11T19:23:53.4"
+    },
+    {
+      "chunk_text": "Mahindra & Mahindra Ltd. Mahindra Towers, Dr. G. M. Bhosale Marg, Worli, Mumbai 400 018 India Tel: +91 22 2490 1441 Fax: +91 22 2490 0833 www.mahindra.com 10th March 2026 National Stock Exchange of India Limited BSE Limited \"Exchange Plaza\", 5th Floor, Phiroze Jeejeebhoy Towers, Plot No.C/1, G Block Dalal Street, Fort, Bandra-Kurla Complex Mumbai 400001. Bandra (East), Mumbai 400051. The Luxembourg Stock Exchange London Stock Exchange Plc 35A Boulevard Joseph II, 10 Paternoster Square L-1840 Luxembourg. London EC4M 7LS. Sub: Intimation of Schedule of Analyst/Institutional Investor Meeting under the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015 We wish to inform you that pursuant to Regulation 30(6) of the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, the Schedule of Analyst or Institutional Investor Meeting(s) with the Company is as under: Sl. Details required Particulars No 1 & 2 Details pertaining to the meet/call and Nomura India Corporate Day on 17th March 2026 in Mumbai Venue from 07:30 p.m. to 08:30 p.m. (IST) (Group Meet) 3 Mode of attending Virtual 4 Details pertaining to registrations: N.A. 5 Disclaimers/note to complete/ease N.A. registration/attending the call 6 Details regarding specific platform N.A. requirements, if any 7 Inclusions/exclusions of Funds/Investors audience/participants, if any *NOTE: The schedule and mode of meeting may undergo a change due to exigencies on the part of Investors/Analysts/Company. Please note that no unpublished price sensitive information is proposed to be shared by the Company during the aforesaid event. Kindly take the same on record. Yours sincerely, For Mahindra & Mahindra Limited Sailesh Kumar Daga Company Secretary Regd. Office: Gateway Building, Apollo Bunder, Mumbai 400 001, India | Tel: +91 22 6897 5500 | Fax: +91 22 22875485 | Email: group.communication@mahindramail.com | mahindra.com | CIN No. L65990MH1945PLC004558",
+      "quarter": "Q4FY25",
+      "filing_date": "2026-03-10T18:35:57.027"
+    }
+  ],
+  "report_text": "**Company Intelligence Report: Mahindra & Mahindra**\n\n**Sentiment Analysis and Key Drivers**\n\nThe current sentiment score for Mahindra & Mahindra stands at 5.22/10, indicating a neutral stance among market participants. Our analysis of 105 news chunks and 31 transcript chunks reveals a lack of significant positive or negative drivers. However, the absence of any major negative news and a stable profit margin of 8.33% may be contributing to the neutral sentiment. The recent institutional investor meet/conference call updates on March 17 and 13 may have also influenced market sentiment, but the lack of specific details makes it difficult to assess their impact.\n\n**Financial Health and Stock Performance**\n\nMahindra & Mahindra's financials indicate a stable revenue growth of 26.4% and a profitability score of 6.0/10. The trailing PE ratio of 23.06 is slightly above the industry average, while the 14-day RSI of 39.9 suggests a relatively low valuation. The stock price of Rs. 3128.90 is trading -5.4% below its 20-day moving average, indicating a slight downtrend. The 3-month volatility of 0.0257 is relatively low, suggesting a stable stock price.\n\n**Investment Outlook and Key Risks and Opportunities**\n\nWe maintain a cautious outlook for Mahindra & Mahindra, given the neutral sentiment and stable financials. The company's ability to maintain its profit margin and revenue growth will be crucial in driving stock performance. Key risks include the ongoing competition in the Indian automobile market and potential disruptions in global supply chains. Opportunities lie in the company's expanding electric vehicle portfolio and its growing presence in the commercial vehicle segment. We recommend a close monitoring of the company's financials and market sentiment to assess potential investment opportunities.",
+  "generated_by": "llama-3.1-8b-instant"
+}

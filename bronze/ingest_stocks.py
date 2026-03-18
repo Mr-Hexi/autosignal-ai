@@ -88,7 +88,7 @@ def save_to_csv(df: pd.DataFrame, ticker: str):
 def run():
     print(f"\n{'='*50}")
     print(f"Bronze Stock Ingestion")
-    print(f"Period: {START_DATE.date()} → {END_DATE.date()}")
+    print(f"Period: {START_DATE.date()} to {END_DATE.date()}")
     print(f"{'='*50}\n")
 
     all_frames = []

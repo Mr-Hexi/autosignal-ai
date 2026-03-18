@@ -1,0 +1,80 @@
+{
+  "company": "Maruti Suzuki",
+  "slug": "maruti-suzuki",
+  "ticker": "MARUTI.NS",
+  "report_date": "18 March 2026",
+  "generated_at": "2026-03-18T09:29:25.748181",
+  "sentiment_score": 5.06,
+  "article_count": 99,
+  "transcript_count": 12,
+  "sentiment_intensity": 23.3022,
+  "signal": "NEUTRAL",
+  "momentum": 0.0,
+  "rsi_14": 31.63,
+  "price_vs_ma20": -0.0887,
+  "profitability_score": 7.0,
+  "reasoning": "sentiment 5.0/10; momentum 0.00; price vs MA20: -8.87%",
+  "close": 12972.0,
+  "ma_20": 14234.2,
+  "volatility_20d": 0.021089,
+  "profit_margin_pct": 8.69,
+  "revenue_growth_pct": 28.7,
+  "trailing_pe": 27.57,
+  "eps_trailing": 474.78,
+  "debt_to_equity": 0.1,
+  "market_cap_cr": 411552.95,
+  "roe_pct": NaN,
+  "recent_events": [
+    {
+      "subject": "Pendency of Litigation(s)/dispute(s) or the outcome impacting the Company",
+      "broadcast_date": "17-Mar-2026 14:03:28",
+      "attachment_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_17032026135930_STxIntimation_DraftAssessOrder_16March2026.pdf"
+    },
+    {
+      "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+      "broadcast_date": "17-Mar-2026 10:29:32",
+      "attachment_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_17032026102744_StxIntimation_InvestorPresentation_17March2026.pdf"
+    },
+    {
+      "subject": "Analysts/Institutional Investor Meet/Con. Call Updates",
+      "broadcast_date": "12-Mar-2026 16:34:06",
+      "attachment_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_12032026162910_StxIntimation_InvestorMeet_17Mar2026.pdf"
+    },
+    {
+      "subject": "General Updates",
+      "broadcast_date": "01-Mar-2026 19:24:01",
+      "attachment_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_01032026192147_StxIntimation_Prod_Feb_2026.pdf"
+    },
+    {
+      "subject": "Press Release",
+      "broadcast_date": "01-Mar-2026 10:58:32",
+      "attachment_url": "https://nsearchives.nseindia.com/corporate/MARUTIASHISH_01032026105606_STxIntimation_Sales_Feb_2026.pdf"
+    }
+  ],
+  "news_samples": [
+    "Maruti Suzuki shares in focus after receiving income tax notice worth Rs 5,786 crore. Maruti Suzuki shares will be in focus after the company received a Rs 5,786 crore income tax notice, though it plans to challenge the order. The stock has declined sharply in recent months despite steady sales growth and strong revenue performance, with mixed trends across segments and modest profit expansion in Q3.",
+    "Stocks in news: Maruti Suzuki, Tata Steel, Varun Beverages, PNB, TCS. Markets saw a second consecutive day of recovery, driven by value buying and stable global cues, with analysts expecting a rebound towards 23,800-24,000. Several companies like Maruti Suzuki, Tata Steel, and TCS were in focus due to significant news, including stake sales, acquisitions, and expansion plans.",
+    "Pendency of Litigation(s) dispute(s) or the outcome impacting the Company. Maruti Suzuki India Limited has informed the Exchange about Pendency of Litigation(s) dispute(s) or the outcome impacting the Company",
+    "Analysts Institutional Investor Meet Con. Call Updates. Maruti Suzuki India Limited has informed the Exchange about Investor Presentation",
+    "General Updates. Maruti Suzuki India Limited has informed the Exchange about Maruti Suzuki Production Volume: February 2026"
+  ],
+  "transcript_samples": [
+    {
+      "chunk_text": "MSIL: COS: NSE&BSE: 2026/03_03 12th March 2026 Vice President General Manager National Stock Exchange of India Limited Department of Corporate Services Exchange Plaza , Bandra Kurla Complex BSE Limited Bandra (E), Phiroze Jeejeebhoy Towers Mumbai 400 051 Dalal Street, Mumbai 400 001 Sub: Schedule of Investor meeting Dear Sir(s), Pursuant to Regulation 30(6) of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, you are kindly informed that a meeting with Investor group is scheduled to be held on 17th March 2026. Note: Date is subject to change. Change may happen due to exigencies on the part of Investor group / Company. Kindly take the same on record. Thanking You, Yours truly, For Maruti Suzuki India Limited Sanjeev Grover Executive Officer & Company Secretary",
+      "quarter": "Q4FY25",
+      "filing_date": "2026-03-12T16:33:47.307"
+    },
+    {
+      "chunk_text": "MARurt\\lSsuzurl MSIL: COS: NSE&BSE:2026102 05 lOth February 2026 Vice President General Manager National Stock Exchange of India Limited Department of Corporate Services \"Exchange Plaza\", Bandra - Kurla Complex BSE Limited Bandra (E), Phiroze Jeejeebhoy Towers Mumbai- 400 051 Dalal Street, Mumbai - 400 001 Sub: Schedule of Investor Meetinss Dear Sir(s), Pursuant to Regulation 30(6) of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, you are kindly informed that meetings with investor group are scheduled to be held on23'd and24th February 2026. Note: Dates are subject to change. Change may happen due to exigencies on the part of inve stor group/ C ompany. Kindly take the same on record. Thanking You, Yours truly, ForMaruti Suzuki India Limited Sanjeev Grover Executive Officer & Company Secretary MARUTI SUZUKI INDIA LIMITED Reglstered and Head Ofilce: Maruti Suanki lndla Llmlted, 1, Nelson Mandela Road, Vasant Kunj, Nevtr D,elhi - 11fl)70, lndia Tel: 011-467810fi1 Emall ld : contact@narutl.co.ln, www.marutlsuankl.com CIN : L34103DL1981PLC011375",
+      "quarter": "Q4FY25",
+      "filing_date": "2026-02-10T12:11:13.527"
+    },
+    {
+      "chunk_text": "MSIL: COS: NSE&BSE: 2026/02_04 4th February 2026 Vice President General Manager National Stock Exchange of India Limited Department of Corporate Services Exchange Plaza , Bandra Kurla Complex BSE Limited Bandra (E), Phiroze Jeejeebhoy Towers Mumbai 400 051 Dalal Street, Mumbai 400 001 Sub: Schedule of Investor Meeting Dear Sir(s), Pursuant to Regulation 30(6) of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015, you are kindly informed that a meeting with investor group is scheduled to be held on 10th February 2026. Note: Date is subject to change. Change may happen due to exigencies on the part of investor group/ Company. Kindly take the same on record. Thanking You, Yours truly, For Maruti Suzuki India Limited Sanjeev Grover Executive Officer & Company Secretary",
+      "quarter": "Q4FY25",
+      "filing_date": "2026-02-04T21:53:38.933"
+    }
+  ],
+  "report_text": "**Maruti Suzuki Company Intelligence Report**\n\n**Current Sentiment and News/Transcripts Analysis**\n\nMaruti Suzuki's current sentiment stands at 5.06/10, indicating a neutral outlook. The sentiment score is driven by 99 news chunks and 12 transcript chunks analyzed. The recent pendency of litigation(s)/dispute(s) or the outcome impacting the Company (17-Mar-2026) and analysts/institutional investor meet/con. call updates (12-Mar-2026 and 17-Mar-2026) are likely contributing factors to the neutral sentiment. The absence of positive momentum (0.0) suggests that investors are cautious, awaiting further developments.\n\n**Financial Health and Stock Performance Assessment**\n\nMaruti Suzuki's financial health is robust, with a profit margin of 8.69% and revenue growth of 28.7%. The company's profitability score is 7.0/10, indicating a stable financial position. The trailing PE ratio of 27.57 is relatively high, but the current price of Rs. 12972.00 is 8.9% below the 20-day moving average. The RSI (14-day) of 31.6 suggests that the stock is undervalued, with potential for a rebound.\n\n**Investment Outlook, Risks, and Opportunities**\n\nInvestors should consider Maruti Suzuki's neutral sentiment and cautious stock performance. The recent litigation and analyst updates may impact the company's future prospects. However, the robust financial health and undervalued stock price present opportunities for long-term investors. A potential rebound in the stock price, driven by improving sentiment and revenue growth, could make Maruti Suzuki an attractive investment opportunity. Investors should closely monitor the company's progress and adjust their investment strategy accordingly.",
+  "generated_by": "llama-3.1-8b-instant"
+}
