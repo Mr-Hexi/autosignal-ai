@@ -2,16 +2,17 @@ import pandas as pd
 import numpy as np
 from datetime import datetime, timezone
 import os
+import math
 
 # ── Config ────────────────────────────────────────────────────────────────────
 
-SENTIMENT_FILE    = "data/gold/company_sentiment_scores.csv"
-MOMENTUM_FILE     = "data/gold/sentiment_momentum.csv"
-STOCKS_FILE       = "data/silver/processed_stocks.csv"
-FINANCIALS_FILE   = "data/silver/processed_financials.csv"
-OUTPUT_DIR        = "data/gold"
-OUTPUT_SIGNALS    = "data/gold/investment_signals.csv"
-OUTPUT_LAG        = "data/gold/lag_correlation.csv"
+SENTIMENT_FILE  = "data/gold/company_sentiment_scores.csv"
+MOMENTUM_FILE   = "data/gold/sentiment_momentum.csv"
+STOCKS_FILE     = "data/silver/processed_stocks.csv"
+FINANCIALS_FILE = "data/silver/processed_financials.csv"
+OUTPUT_DIR      = "data/gold"
+OUTPUT_SIGNALS  = "data/gold/investment_signals.csv"
+OUTPUT_LAG      = "data/gold/lag_correlation.csv"
 
 TICKER_TO_COMPANY = {
     "MARUTI.NS":     "Maruti Suzuki",
@@ -26,73 +27,126 @@ TICKER_TO_COMPANY = {
 def now():
     return datetime.now(timezone.utc).replace(tzinfo=None).isoformat()
 
-# ── Signal Logic ──────────────────────────────────────────────────────────────
+def normalize(value, min_val, max_val, target_min=0, target_max=10):
+    """Normalize value to target range."""
+    if max_val == min_val:
+        return (target_min + target_max) / 2
+    clipped = max(min_val, min(max_val, value))
+    return round(target_min + (clipped - min_val) / (max_val - min_val) * (target_max - target_min), 4)
 
-def generate_signal(
+# ── Multi-Factor Signal Engine ────────────────────────────────────────────────
+
+def compute_composite_score(
     sentiment_score: float,
-    momentum: float,
+    sentiment_momentum: float,
     price_vs_ma20: float,
-    profitability_score: float,
-) -> tuple:
+    rsi_14: float,
+    revenue_growth: float,
+    profit_margin: float,
+    price_momentum_5d: float = 0.0,  # ← add this
+) -> dict:
     """
-    Returns (signal, reasoning)
+    Composite signal score (0-10) from 5 factors:
 
-    BUY:        sentiment > 7 OR (sentiment > 6 AND momentum > 0 AND price above MA20)
-    RISK_ALERT: sentiment < 4 OR momentum < -1.5 OR profitability < 4
-    NEUTRAL:    everything else
+    Factor weights:
+    - Sentiment score      : 35%
+    - Sentiment momentum   : 20%
+    - Price momentum       : 20%
+    - Technical (RSI)      : 15%
+    - Fundamental          : 10%
     """
-    reasons = []
 
-    # BUY conditions
-    strong_sentiment  = sentiment_score > 7
-    good_sentiment    = sentiment_score > 6
-    positive_momentum = momentum > 0
-    above_ma20        = price_vs_ma20 > 0
-    healthy_profits   = profitability_score >= 6
+    # ── Factor 1: Sentiment (already 0-10) ──
+    f_sentiment = sentiment_score  # 0-10
 
-    # RISK conditions
-    weak_sentiment    = sentiment_score < 4
-    negative_momentum = momentum < -1.5
-    poor_profits      = profitability_score < 4
+    # ── Factor 2: Sentiment Momentum (-3 to +3 typically) → normalize to 0-10 ──
+    f_momentum = normalize(price_momentum_5d or 0, -0.10, 0.10, 0, 10)
 
-    if weak_sentiment or negative_momentum or poor_profits:
-        if weak_sentiment:
-            reasons.append(f"low sentiment ({sentiment_score:.1f}/10)")
-        if negative_momentum:
-            reasons.append(f"negative momentum ({momentum:.2f})")
-        if poor_profits:
-            reasons.append(f"weak profitability ({profitability_score}/10)")
-        return "RISK_ALERT", "; ".join(reasons)
+    # ── Factor 3: Price Momentum (price vs MA20) → normalize to 0-10 ──
+    # price_vs_ma20 ranges roughly -0.20 to +0.20
+    f_price = normalize(price_vs_ma20, -0.20, 0.20, 0, 10)
 
-    if strong_sentiment:
-        reasons.append(f"strong sentiment ({sentiment_score:.1f}/10)")
-        if positive_momentum:
-            reasons.append("positive momentum")
-        if above_ma20:
-            reasons.append("price above MA20")
-        return "BUY", "; ".join(reasons)
+    # ── Factor 4: Technical Signal (RSI) → normalize to 0-10 ──
+    # RSI < 30 = oversold (opportunity) → higher score
+    # RSI > 70 = overbought (risk) → lower score
+    # We invert RSI slightly: sweet spot is 40-60
+    if rsi_14 <= 30:
+        f_technical = 7.5  # oversold — potential buy
+    elif rsi_14 <= 45:
+        f_technical = 6.5  # approaching oversold
+    elif rsi_14 <= 55:
+        f_technical = 5.0  # neutral
+    elif rsi_14 <= 70:
+        f_technical = 4.0  # approaching overbought
+    else:
+        f_technical = 2.5  # overbought — caution
 
-    if good_sentiment and positive_momentum and above_ma20 and healthy_profits:
-        reasons.append(f"good sentiment ({sentiment_score:.1f}/10)")
-        reasons.append("positive momentum")
-        reasons.append("price above MA20")
-        reasons.append(f"healthy profitability ({profitability_score}/10)")
-        return "BUY", "; ".join(reasons)
+    # ── Factor 5: Fundamental Score ──
+    f_fundamental = 5.0  # default neutral
+    try:
+        if revenue_growth is not None and not math.isnan(revenue_growth):
+            if revenue_growth > 20:   f_fundamental += 2.0
+            elif revenue_growth > 10: f_fundamental += 1.0
+            elif revenue_growth > 0:  f_fundamental += 0.5
+            elif revenue_growth < -20: f_fundamental -= 2.0
+            elif revenue_growth < 0:  f_fundamental -= 1.0
 
-    # Neutral
-    reasons.append(f"sentiment {sentiment_score:.1f}/10")
-    reasons.append(f"momentum {momentum:.2f}")
-    reasons.append(f"price vs MA20: {price_vs_ma20:.2%}")
-    return "NEUTRAL", "; ".join(reasons)
+        if profit_margin is not None and not math.isnan(profit_margin):
+            if profit_margin > 15:   f_fundamental += 1.5
+            elif profit_margin > 10: f_fundamental += 0.5
+            elif profit_margin < 5:  f_fundamental -= 1.0
+
+        f_fundamental = max(0, min(10, f_fundamental))
+    except Exception:
+        f_fundamental = 5.0
+
+    # ── Composite Score ──
+    composite = (
+        0.35 * f_sentiment +
+        0.20 * f_momentum +
+        0.20 * f_price +
+        0.15 * f_technical +
+        0.10 * f_fundamental
+    )
+    composite = round(max(0, min(10, composite)), 2)
+
+    return {
+        "composite_score":   composite,
+        "f_sentiment":       round(f_sentiment, 2),
+        "f_momentum":        round(f_momentum, 2),
+        "f_price":           round(f_price, 2),
+        "f_technical":       round(f_technical, 2),
+        "f_fundamental":     round(f_fundamental, 2),
+    }
+
+def generate_signal(composite_score: float) -> str:
+    if composite_score >= 5.5:
+        return "BUY"
+    elif composite_score <= 4.8:
+        return "RISK_ALERT"
+    else:
+        return "NEUTRAL"
+
+def build_reasoning(row: dict, factors: dict) -> str:
+    parts = []
+    parts.append(f"sentiment {row['sentiment_score']:.1f}/10")
+    parts.append(f"momentum {row['momentum']:+.2f}")
+    parts.append(f"price vs MA20 {row['price_vs_ma20']*100:.1f}%")
+    parts.append(f"RSI {row['rsi_14']:.1f}")
+
+    score = factors["composite_score"]
+    if score >= 6.5:
+        parts.append("composite score BUY territory")
+    elif score <= 4.5:
+        parts.append("composite score RISK territory")
+    else:
+        parts.append("composite score NEUTRAL territory")
+
+    return "; ".join(parts)
 
 # ── Lag Correlation ───────────────────────────────────────────────────────────
 
 def compute_lag_correlation(stocks_df: pd.DataFrame, sentiment_df: pd.DataFrame) -> pd.DataFrame:
-    """
-    For each company, compute correlation between sentiment score
-    and stock return lagged by 1, 2, 3 days.
-    Uses daily sentiment (same score repeated) vs daily returns.
-    """
     print("  Computing lag correlations...")
     rows = []
 
@@ -100,25 +154,22 @@ def compute_lag_correlation(stocks_df: pd.DataFrame, sentiment_df: pd.DataFrame)
         stock = stocks_df[stocks_df["ticker"] == ticker][["date", "daily_return"]].copy()
         stock["date"] = pd.to_datetime(stock["date"])
 
-        # Get sentiment score for this company (single value for now)
         sent = sentiment_df[sentiment_df["company"] == company]
         if sent.empty or stock.empty:
             continue
 
         sentiment_score = sent["sentiment_score"].iloc[0]
-
-        # Assign same sentiment score to all dates (will improve with daily scores later)
         stock["sentiment"] = sentiment_score
 
         for lag in [1, 2, 3]:
             stock[f"return_lag{lag}"] = stock["daily_return"].shift(-lag)
             corr = stock["sentiment"].corr(stock[f"return_lag{lag}"])
             rows.append({
-                "company":      company,
-                "ticker":       ticker,
-                "lag_days":     lag,
-                "correlation":  round(corr, 4) if not np.isnan(corr) else None,
-                "computed_at":  now(),
+                "company":     company,
+                "ticker":      ticker,
+                "lag_days":    lag,
+                "correlation": round(corr, 4) if not np.isnan(corr) else None,
+                "computed_at": now(),
             })
 
     return pd.DataFrame(rows)
@@ -127,20 +178,18 @@ def compute_lag_correlation(stocks_df: pd.DataFrame, sentiment_df: pd.DataFrame)
 
 def run():
     print(f"\n{'='*50}")
-    print(f"Gold Signal Generation")
+    print(f"Gold Signal Generation (Multi-Factor Engine)")
     print(f"{'='*50}\n")
 
     # Load data
-    sentiment_df    = pd.read_csv(SENTIMENT_FILE)
-    momentum_df     = pd.read_csv(MOMENTUM_FILE)
-    stocks_df       = pd.read_csv(STOCKS_FILE, parse_dates=["date"])
-    financials_df   = pd.read_csv(FINANCIALS_FILE)
+    sentiment_df  = pd.read_csv(SENTIMENT_FILE)
+    momentum_df   = pd.read_csv(MOMENTUM_FILE)
+    stocks_df     = pd.read_csv(STOCKS_FILE, parse_dates=["date"])
+    financials_df = pd.read_csv(FINANCIALS_FILE)
 
-    print(f"  Loaded: {len(sentiment_df)} sentiment scores, "
-          f"{len(stocks_df)} stock rows, "
-          f"{len(financials_df)} financial rows")
+    print(f"  Loaded: {len(sentiment_df)} sentiment scores")
 
-    # Get latest stock data per company for price_vs_ma20
+    # Latest stock per company
     latest_stocks = (
         stocks_df.sort_values("date")
                  .groupby("ticker")
@@ -149,80 +198,130 @@ def run():
     )
     latest_stocks["company"] = latest_stocks["ticker"].map(TICKER_TO_COMPANY)
 
-    # Merge all signals data
-    signals_data = sentiment_df.merge(momentum_df, on="company", how="left")
-    signals_data = signals_data.merge(
+    # Compute 5-day price momentum per company
+    momentum_5d = {}
+    for ticker, company in TICKER_TO_COMPANY.items():
+        ticker_data = stocks_df[stocks_df["ticker"] == ticker].sort_values("date")
+        if len(ticker_data) >= 5:
+            recent_return = (
+                ticker_data["close"].iloc[-1] / ticker_data["close"].iloc[-5] - 1
+            )
+            momentum_5d[company] = round(float(recent_return), 6)
+        else:
+            momentum_5d[company] = 0.0
+
+    print(f"\n  5-day price momentum:")
+    for company, mom in momentum_5d.items():
+        print(f"    {company}: {mom:+.2%}")
+
+    # Merge all data
+    merged = sentiment_df.copy()
+
+    # Fix column names from momentum merge
+    mom_cols = momentum_df[["company", "momentum"]].copy()
+    merged = merged.merge(mom_cols, on="company", how="left")
+    merged = merged.merge(
         latest_stocks[["company", "price_vs_ma20", "rsi_14", "close", "ma_20"]],
         on="company", how="left"
     )
-    signals_data = signals_data.merge(
-        financials_df[["company", "profitability_score"]],
+    merged = merged.merge(
+        financials_df[["company", "profitability_score", "revenue_growth_pct", "profit_margin_pct"]],
         on="company", how="left"
     )
 
-    # Generate signals
-    print("\n  Generating investment signals...\n")
+    # Add 5d momentum
+    merged["price_momentum_5d"] = merged["company"].map(momentum_5d)
+
+    print(f"\n  Generating multi-factor signals...\n")
+    print(f"  {'Company':<25} {'Sent':>6} {'5dMom':>7} {'Price':>8} {'RSI':>6} {'Comp':>6} {'Signal':<12}")
+    print(f"  {'-'*78}")
+
     signal_rows = []
 
-    for _, row in signals_data.iterrows():
-        sentiment_score     = float(row.get("sentiment_score", 5))
-        momentum            = float(row.get("momentum", 0) or 0)
-        price_vs_ma20       = float(row.get("price_vs_ma20", 0) or 0)
-        profitability_score = float(row.get("profitability_score", 5) or 5)
+    for _, row in merged.iterrows():
+        sentiment_score   = float(row.get("sentiment_score", 5) or 5)
+        momentum          = float(row.get("momentum", 0) or 0)
+        price_vs_ma20     = float(row.get("price_vs_ma20", 0) or 0)
+        rsi_14            = float(row.get("rsi_14", 50) or 50)
+        price_momentum_5d = float(row.get("price_momentum_5d", 0) or 0)
+        profitability     = float(row.get("profitability_score", 5) or 5)
 
-        signal, reasoning = generate_signal(
-            sentiment_score,
-            momentum,
-            price_vs_ma20,
-            profitability_score,
+        revenue_growth = row.get("revenue_growth_pct")
+        profit_margin  = row.get("profit_margin_pct")
+
+        try:
+            revenue_growth = float(revenue_growth) if revenue_growth is not None and not math.isnan(float(revenue_growth)) else None
+        except Exception:
+            revenue_growth = None
+
+        try:
+            profit_margin = float(profit_margin) if profit_margin is not None and not math.isnan(float(profit_margin)) else None
+        except Exception:
+            profit_margin = None
+
+        factors = compute_composite_score(
+            sentiment_score=sentiment_score,
+            sentiment_momentum=momentum,
+            price_vs_ma20=price_vs_ma20,
+            rsi_14=rsi_14,
+            revenue_growth=revenue_growth,
+            profit_margin=profit_margin,
+            price_momentum_5d=price_momentum_5d,
         )
 
+        signal    = generate_signal(factors["composite_score"])
+        reasoning = build_reasoning(
+            {"sentiment_score": sentiment_score, "momentum": momentum,
+             "price_vs_ma20": price_vs_ma20, "rsi_14": rsi_14},
+            factors
+        )
+
+        print(f"  {row['company']:<25} {sentiment_score:>6.2f} {price_momentum_5d:>+7.2%} "
+              f"{price_vs_ma20*100:>7.1f}% {rsi_14:>6.1f} "
+              f"{factors['composite_score']:>6.2f} {signal:<12}")
+
         signal_rows.append({
-            "company":              row["company"],
-            "signal_date":          now(),
-            "signal":               signal,
-            "sentiment_score":      round(sentiment_score, 2),
-            "momentum":             round(momentum, 2),
-            "price_vs_ma20":        round(price_vs_ma20, 4),
-            "profitability_score":  round(profitability_score, 2),
-            "rsi_14":               round(float(row.get("rsi_14", 50) or 50), 2),
-            "close":                round(float(row.get("close", 0) or 0), 2),
-            "ma_20":                round(float(row.get("ma_20", 0) or 0), 2),
-            "reasoning":            reasoning,
+            "company":             row["company"],
+            "signal_date":         now(),
+            "signal":              signal,
+            "composite_score":     factors["composite_score"],
+            "sentiment_score":     round(sentiment_score, 2),
+            "momentum":            round(momentum, 2),
+            "price_momentum_5d":   round(price_momentum_5d, 6),
+            "price_vs_ma20":       round(price_vs_ma20, 4),
+            "rsi_14":              round(rsi_14, 2),
+            "profitability_score": round(profitability, 2),
+            "f_sentiment":         factors["f_sentiment"],
+            "f_momentum":          factors["f_momentum"],
+            "f_price":             factors["f_price"],
+            "f_technical":         factors["f_technical"],
+            "f_fundamental":       factors["f_fundamental"],
+            "close":               round(float(row.get("close", 0) or 0), 2),
+            "ma_20":               round(float(row.get("ma_20", 0) or 0), 2),
+            "reasoning":           reasoning,
         })
 
     signals_df = pd.DataFrame(signal_rows)
 
-    # Print results
-    print(f"  {'Company':<25} {'Signal':<12} {'Sentiment':<12} {'Momentum':<12} {'RSI':<8} Reasoning")
-    print(f"  {'-'*90}")
-    for _, row in signals_df.iterrows():
-        print(f"  {row['company']:<25} {row['signal']:<12} "
-              f"{row['sentiment_score']:<12} {row['momentum']:<12} "
-              f"{row['rsi_14']:<8} {row['reasoning']}")
-
-    # Save signals
+    # Save
     os.makedirs(OUTPUT_DIR, exist_ok=True)
     signals_df.to_csv(OUTPUT_SIGNALS, index=False)
-    print(f"\n  Saved → {OUTPUT_SIGNALS}")
+    print(f"\n  Saved -> {OUTPUT_SIGNALS}")
+
+    # Signal distribution
+    print(f"\n  Signal Distribution:")
+    for signal, count in signals_df["signal"].value_counts().items():
+        print(f"    {signal}: {count}")
 
     # Lag correlation
     lag_df = compute_lag_correlation(stocks_df, sentiment_df)
     if not lag_df.empty:
         lag_df.to_csv(OUTPUT_LAG, index=False)
-        print(f"  Saved → {OUTPUT_LAG}")
-        print(f"\n  Lag Correlations:")
-        print(f"  {'Company':<25} {'Lag 1':>8} {'Lag 2':>8} {'Lag 3':>8}")
-        print(f"  {'-'*55}")
-        for company in lag_df["company"].unique():
-            co = lag_df[lag_df["company"] == company]
-            lags = {row["lag_days"]: row["correlation"] for _, row in co.iterrows()}
-            print(f"  {company:<25} "
-                  f"{str(lags.get(1,'N/A')):>8} "
-                  f"{str(lags.get(2,'N/A')):>8} "
-                  f"{str(lags.get(3,'N/A')):>8}")
 
-    print("\nGold signal generation complete.\n")
+    print("\nMulti-factor signal generation complete.\n")
+    
+    
+    
 
 if __name__ == "__main__":
     run()

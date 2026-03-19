@@ -2,27 +2,27 @@
   "company": "Mahindra & Mahindra",
   "slug": "mahindra-mahindra",
   "ticker": "M&M.NS",
-  "report_date": "18 March 2026",
-  "generated_at": "2026-03-18T09:29:28.022556",
-  "sentiment_score": 5.22,
-  "article_count": 105,
+  "report_date": "19 March 2026",
+  "generated_at": "2026-03-19T05:09:53.088995",
+  "sentiment_score": 5.01,
+  "article_count": 161,
   "transcript_count": 31,
-  "sentiment_intensity": 24.3432,
+  "sentiment_intensity": 25.4889,
   "signal": "NEUTRAL",
   "momentum": 0.0,
-  "rsi_14": 39.9,
-  "price_vs_ma20": -0.0543,
+  "rsi_14": 44.89,
+  "price_vs_ma20": -0.0244,
   "profitability_score": 6.0,
-  "reasoning": "sentiment 5.0/10; momentum 0.00; price vs MA20: -5.43%",
-  "close": 3128.89990234375,
-  "ma_20": 3308.69,
-  "volatility_20d": 0.025677,
+  "reasoning": "sentiment 5.0/10; momentum +0.00; price vs MA20 -2.4%; RSI 44.9; composite score NEUTRAL territory",
+  "close": 3214.60009765625,
+  "ma_20": 3294.96,
+  "volatility_20d": 0.026703,
   "profit_margin_pct": 8.33,
   "revenue_growth_pct": 26.4,
-  "trailing_pe": 23.06,
-  "eps_trailing": 139.86,
+  "trailing_pe": 22.39,
+  "eps_trailing": 139.84,
   "debt_to_equity": 132.29,
-  "market_cap_cr": 387152.48,
+  "market_cap_cr": 375844.03,
   "roe_pct": NaN,
   "recent_events": [
     {
@@ -55,8 +55,8 @@
     "TCS, Infosys, Wipro and other IT stocks soar up to 4 . Here s what s triggering the surge. IT stocks rallied up to 4 on Wednesday after CLSA retained its Outperform rating on key names, easing concerns around AI-led disruption that had sparked a sharp selloff last month. Coforge and Persistent led gains, rising over 4 each, while TCS, LTIMindtree, HCL Tech, Tech Mahindra and Wipro also posted strong advances.",
     "Updates. Mahindra Mahindra Limited has informed the Exchange regarding 'Transfer of Equity Shares by Mahindra Mahindra Employees Stock Option Trust to the Stock Option Grantees'.",
     "General Updates. M M: Mahindra Mahindra Limited has informed the Exchange about Production, Sales and Export figures for the month of February 2026",
-    "News Verification. The Exchange has sought clarification from Mahindra Mahindra Limited with respect to recent news item captioned Indonesia puts vehicle imports from Tata Motors and Mahindra Mahindra on hold.. The response from the Company is attached.",
-    "Rumour Verification - Regulation 30(11). Mahindra Mahindra Limited has informed the Exchange about Rumour Verification - Regulation 30(11)"
+    "Rumour Verification - Regulation 30(11). Mahindra Mahindra Limited has informed the Exchange about Rumour Verification - Regulation 30(11)",
+    "Sale or disposal. Mahindra Mahindra Limited has informed the Exchange about Cessation of Blue Planet Integrated Waste Solutions Private Limited as an Associate of the Company"
   ],
   "transcript_samples": [
     {
@@ -75,6 +75,6 @@
       "filing_date": "2026-03-10T18:35:57.027"
     }
   ],
-  "report_text": "**Company Intelligence Report: Mahindra & Mahindra**\n\n**Sentiment Analysis and Key Drivers**\n\nThe current sentiment score for Mahindra & Mahindra stands at 5.22/10, indicating a neutral stance among market participants. Our analysis of 105 news chunks and 31 transcript chunks reveals a lack of significant positive or negative drivers. However, the absence of any major negative news and a stable profit margin of 8.33% may be contributing to the neutral sentiment. The recent institutional investor meet/conference call updates on March 17 and 13 may have also influenced market sentiment, but the lack of specific details makes it difficult to assess their impact.\n\n**Financial Health and Stock Performance**\n\nMahindra & Mahindra's financials indicate a stable revenue growth of 26.4% and a profitability score of 6.0/10. The trailing PE ratio of 23.06 is slightly above the industry average, while the 14-day RSI of 39.9 suggests a relatively low valuation. The stock price of Rs. 3128.90 is trading -5.4% below its 20-day moving average, indicating a slight downtrend. The 3-month volatility of 0.0257 is relatively low, suggesting a stable stock price.\n\n**Investment Outlook and Key Risks and Opportunities**\n\nWe maintain a cautious outlook for Mahindra & Mahindra, given the neutral sentiment and stable financials. The company's ability to maintain its profit margin and revenue growth will be crucial in driving stock performance. Key risks include the ongoing competition in the Indian automobile market and potential disruptions in global supply chains. Opportunities lie in the company's expanding electric vehicle portfolio and its growing presence in the commercial vehicle segment. We recommend a close monitoring of the company's financials and market sentiment to assess potential investment opportunities.",
+  "report_text": "**Mahindra & Mahindra Company Intelligence Report**\n\n**Sentiment Analysis**\n\nThe current sentiment for Mahindra & Mahindra is NEUTRAL, with a Sentiment Score of 5.01/10. This neutral sentiment is driven by a lack of significant positive or negative news, as indicated by a Momentum of 0.0. Our analysis of 161 news chunks and 31 transcript chunks reveals that recent events, such as Analysts/Institutional Investor Meet/Con. Call Updates, have not had a significant impact on the sentiment. However, the absence of any major positive developments may be contributing to the neutral sentiment.\n\n**Financial Health and Stock Performance**\n\nMahindra & Mahindra's financial health is stable, with a Profit Margin of 8.33% and Revenue Growth of 26.4%. The company's Profitability Score of 6.0/10 indicates a moderate level of profitability. The stock's current price of Rs. 3214.60 is trading at a Trailing PE of 22.39, which is slightly above the industry average. The RSI (14-day) of 44.9 suggests that the stock is currently in a neutral position, neither overbought nor oversold. The 20-day MA is -2.4% lower than the current price, indicating a minor decline in recent trading.\n\n**Investment Outlook**\n\nWe maintain a neutral investment outlook for Mahindra & Mahindra, driven by its stable financial health and moderate profitability. However, the company's stock performance is influenced by the overall market sentiment and the Indian automobile industry's growth prospects. Key risks include the ongoing competition in the Indian market and the potential impact of regulatory changes on the company's business. Opportunities lie in the company's growing presence in the electric vehicle segment and its expanding product portfolio. We recommend monitoring the company's progress and adjusting our outlook accordingly.",
   "generated_by": "llama-3.1-8b-instant"
 }

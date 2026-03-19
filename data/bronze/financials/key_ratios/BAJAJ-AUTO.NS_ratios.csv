@@ -1,2 +1,2 @@
 ticker,company,ingested_at,trailing_pe,forward_pe,price_to_book,enterprise_to_ebitda,profit_margin,operating_margin,gross_margin,return_on_equity,return_on_assets,revenue_growth,earnings_growth,debt_to_equity,current_ratio,free_cashflow,total_revenue,total_debt,eps_trailing,eps_forward,book_value,market_cap,52w_high,52w_low,dividend_yield
-BAJAJ-AUTO.NS,Bajaj Auto,2026-03-18T08:36:34.477332,29.08725,23.32291,7.5568886,18.347,0.15052,0.24317,0.34529,,,0.231,0.25,57.257,,,590238384128,195646095360,317.94,396.52,1223.784,2582527606784,10187.0,7089.35,2.31
+BAJAJ-AUTO.NS,Bajaj Auto,2026-03-19T05:07:12.857441,28.643082,22.9711,7.4428983,18.655,0.15052,0.24317,0.34529,,,0.231,0.25,57.257,,,590238384128,195646095360,318.0,396.52,1223.784,2543571697664,10187.0,7089.35,2.27

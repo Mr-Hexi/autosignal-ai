@@ -2,27 +2,27 @@
   "company": "Maruti Suzuki",
   "slug": "maruti-suzuki",
   "ticker": "MARUTI.NS",
-  "report_date": "18 March 2026",
-  "generated_at": "2026-03-18T09:29:25.748181",
-  "sentiment_score": 5.06,
-  "article_count": 99,
+  "report_date": "19 March 2026",
+  "generated_at": "2026-03-19T05:09:50.877737",
+  "sentiment_score": 4.82,
+  "article_count": 147,
   "transcript_count": 12,
-  "sentiment_intensity": 23.3022,
+  "sentiment_intensity": 24.0866,
   "signal": "NEUTRAL",
   "momentum": 0.0,
-  "rsi_14": 31.63,
-  "price_vs_ma20": -0.0887,
+  "rsi_14": 33.23,
+  "price_vs_ma20": -0.0764,
   "profitability_score": 7.0,
-  "reasoning": "sentiment 5.0/10; momentum 0.00; price vs MA20: -8.87%",
-  "close": 12972.0,
-  "ma_20": 14234.2,
-  "volatility_20d": 0.021089,
+  "reasoning": "sentiment 4.8/10; momentum +0.00; price vs MA20 -7.6%; RSI 33.2; composite score NEUTRAL territory",
+  "close": 13048.0,
+  "ma_20": 14127.65,
+  "volatility_20d": 0.020994,
   "profit_margin_pct": 8.69,
   "revenue_growth_pct": 28.7,
-  "trailing_pe": 27.57,
-  "eps_trailing": 474.78,
+  "trailing_pe": 26.75,
+  "eps_trailing": 474.95,
   "debt_to_equity": 0.1,
-  "market_cap_cr": 411552.95,
+  "market_cap_cr": 399448.45,
   "roe_pct": NaN,
   "recent_events": [
     {
@@ -52,11 +52,11 @@
     }
   ],
   "news_samples": [
-    "Maruti Suzuki shares in focus after receiving income tax notice worth Rs 5,786 crore. Maruti Suzuki shares will be in focus after the company received a Rs 5,786 crore income tax notice, though it plans to challenge the order. The stock has declined sharply in recent months despite steady sales growth and strong revenue performance, with mixed trends across segments and modest profit expansion in Q3.",
-    "Stocks in news: Maruti Suzuki, Tata Steel, Varun Beverages, PNB, TCS. Markets saw a second consecutive day of recovery, driven by value buying and stable global cues, with analysts expecting a rebound towards 23,800-24,000. Several companies like Maruti Suzuki, Tata Steel, and TCS were in focus due to significant news, including stake sales, acquisitions, and expansion plans.",
     "Pendency of Litigation(s) dispute(s) or the outcome impacting the Company. Maruti Suzuki India Limited has informed the Exchange about Pendency of Litigation(s) dispute(s) or the outcome impacting the Company",
     "Analysts Institutional Investor Meet Con. Call Updates. Maruti Suzuki India Limited has informed the Exchange about Investor Presentation",
-    "General Updates. Maruti Suzuki India Limited has informed the Exchange about Maruti Suzuki Production Volume: February 2026"
+    "General Updates. Maruti Suzuki India Limited has informed the Exchange about Maruti Suzuki Production Volume: February 2026",
+    "Press Release. Maruti Suzuki India Limited has informed the Exchange regarding a press release dated March 01, 2026, titled Maruti Suzuki sales in February 2026 .",
+    "Copy of Newspaper Publication. Maruti Suzuki India Limited has informed the Exchange about Copy of Newspaper Publication"
   ],
   "transcript_samples": [
     {
@@ -75,6 +75,6 @@
       "filing_date": "2026-02-04T21:53:38.933"
     }
   ],
-  "report_text": "**Maruti Suzuki Company Intelligence Report**\n\n**Current Sentiment and News/Transcripts Analysis**\n\nMaruti Suzuki's current sentiment stands at 5.06/10, indicating a neutral outlook. The sentiment score is driven by 99 news chunks and 12 transcript chunks analyzed. The recent pendency of litigation(s)/dispute(s) or the outcome impacting the Company (17-Mar-2026) and analysts/institutional investor meet/con. call updates (12-Mar-2026 and 17-Mar-2026) are likely contributing factors to the neutral sentiment. The absence of positive momentum (0.0) suggests that investors are cautious, awaiting further developments.\n\n**Financial Health and Stock Performance Assessment**\n\nMaruti Suzuki's financial health is robust, with a profit margin of 8.69% and revenue growth of 28.7%. The company's profitability score is 7.0/10, indicating a stable financial position. The trailing PE ratio of 27.57 is relatively high, but the current price of Rs. 12972.00 is 8.9% below the 20-day moving average. The RSI (14-day) of 31.6 suggests that the stock is undervalued, with potential for a rebound.\n\n**Investment Outlook, Risks, and Opportunities**\n\nInvestors should consider Maruti Suzuki's neutral sentiment and cautious stock performance. The recent litigation and analyst updates may impact the company's future prospects. However, the robust financial health and undervalued stock price present opportunities for long-term investors. A potential rebound in the stock price, driven by improving sentiment and revenue growth, could make Maruti Suzuki an attractive investment opportunity. Investors should closely monitor the company's progress and adjust their investment strategy accordingly.",
+  "report_text": "**Maruti Suzuki Company Intelligence Report**\n\n**Sentiment Analysis**\n\nThe current sentiment score for Maruti Suzuki stands at 4.82/10, indicating a neutral stance among market participants. The sentiment momentum is stagnant at 0.0, suggesting a lack of significant directional bias. Our analysis of 147 news chunks and 12 transcripts reveals that recent litigation and dispute pendencies (17-Mar-2026) have contributed to the neutral sentiment. Additionally, updates from analysts/institutional investor meets (12-Mar-2026 and 17-Mar-2026) have also influenced market perception. The absence of significant positive news or transcripts has kept the sentiment score in check.\n\n**Financial Health and Stock Performance**\n\nMaruti Suzuki's financials indicate a stable revenue growth of 28.7%, accompanied by a profit margin of 8.69%. The trailing PE ratio stands at 26.75, while the EPS is 474.95. The company's profitability score is 7.0/10, suggesting a moderate level of profitability. The stock performance is currently lagging behind its 20-day moving average, with a -7.6% deviation. The RSI (14-day) is at 33.2, indicating a potential oversold condition. The 3-month volatility is relatively low at 0.0210.\n\n**Investment Outlook**\n\nConsidering the neutral sentiment, stable financials, and potential oversold condition, we believe Maruti Suzuki presents a cautiously optimistic investment opportunity. The company's revenue growth and profitability suggest a solid foundation for future growth. However, the recent litigation and dispute pendencies pose a risk to the company's reputation and financials. Investors should closely monitor the outcome of these pendencies and the company's response to mitigate potential risks. A potential upside in the stock price is possible if the company can successfully navigate these challenges and deliver on its growth prospects.",
   "generated_by": "llama-3.1-8b-instant"
 }

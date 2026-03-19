@@ -30,7 +30,7 @@ def make_id(symbol: str, subject: str, date: str) -> str:
 def fetch_announcements(nse: NSE, symbol: str, company: str) -> pd.DataFrame:
     print(f"  Fetching announcements: {symbol}...")
     try:
-        from_date = datetime.now() - timedelta(days=90)
+        from_date = datetime.now() - timedelta(days=365)  # 1 year
         to_date   = datetime.now()
 
         data = nse.announcements(

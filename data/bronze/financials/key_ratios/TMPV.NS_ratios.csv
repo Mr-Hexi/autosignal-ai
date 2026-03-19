@@ -1,2 +1,2 @@
 ticker,company,ingested_at,trailing_pe,forward_pe,price_to_book,enterprise_to_ebitda,profit_margin,operating_margin,gross_margin,return_on_equity,return_on_assets,revenue_growth,earnings_growth,debt_to_equity,current_ratio,free_cashflow,total_revenue,total_debt,eps_trailing,eps_forward,book_value,market_cap,52w_high,52w_low,dividend_yield
-TMPV.NS,Tata Motors,2026-03-18T08:36:32.784509,30.625586,7.9470143,1.0827845,6.754,0.21158001,-0.036530003,0.4382,,,-0.383,,56.134,,,4021130100736,672579977216,10.63,40.96507,300.66,1198797881344,419.0,306.9,1.88
+TMPV.NS,Tata Motors,2026-03-19T05:07:10.231717,29.618643,7.678493,1.0461984,6.848,0.21158001,-0.036530003,0.4382,,,-0.383,,56.134,,,4021130100736,672579977216,10.62,40.96507,300.66,1158291783680,419.0,306.9,1.85

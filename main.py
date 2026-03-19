@@ -22,7 +22,7 @@ PIPELINE = [
     ("Silver", "Transcript Processing",     "silver/process_transcripts.py"),
     ("Silver", "Financials Processing",     "silver/process_financials.py"),
     #VECTOR
-    ("Vector", "Build Embeddings", "vector/build_embeddings.py"),
+    ("Vector", "Build Embeddings", "vectors/build_embeddings.py"),
     # Gold
     ("Gold",   "Sentiment Scoring",         "gold/sentiment_scoring.py"),
     ("Gold",   "Signal Generation",         "gold/generate_signals.py"),

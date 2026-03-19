@@ -1,2 +1,2 @@
 ticker,company,ingested_at,trailing_pe,forward_pe,price_to_book,enterprise_to_ebitda,profit_margin,operating_margin,gross_margin,return_on_equity,return_on_assets,revenue_growth,earnings_growth,debt_to_equity,current_ratio,free_cashflow,total_revenue,total_debt,eps_trailing,eps_forward,book_value,market_cap,52w_high,52w_low,dividend_yield
-MARUTI.NS,Maruti Suzuki,2026-03-18T08:36:32.037319,27.570663,22.705585,4.126081,20.516,0.08693,0.07692,0.27464,,,0.287,0.041,0.1,,,1717736046592,999000000,474.78,576.51013,3172.502,4115529465856,17370.0,11059.45,1.04
+MARUTI.NS,Maruti Suzuki,2026-03-19T05:07:08.901184,26.750183,22.037773,4.0047255,20.638,0.08693,0.07692,0.27464,,,0.287,0.041,0.1,,,1717736046592,999000000,474.95,576.51013,3172.502,3994484473856,17370.0,11059.45,1.03

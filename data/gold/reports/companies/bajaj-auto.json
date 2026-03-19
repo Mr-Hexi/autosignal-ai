@@ -2,29 +2,34 @@
   "company": "Bajaj Auto",
   "slug": "bajaj-auto",
   "ticker": "BAJAJ-AUTO.NS",
-  "report_date": "18 March 2026",
-  "generated_at": "2026-03-18T09:29:29.055028",
-  "sentiment_score": 5.82,
-  "article_count": 98,
+  "report_date": "19 March 2026",
+  "generated_at": "2026-03-19T05:09:54.005088",
+  "sentiment_score": 5.42,
+  "article_count": 148,
   "transcript_count": 30,
-  "sentiment_intensity": 26.7436,
+  "sentiment_intensity": 27.1214,
   "signal": "NEUTRAL",
   "momentum": 0.0,
-  "rsi_14": 39.63,
-  "price_vs_ma20": -0.0552,
+  "rsi_14": 44.14,
+  "price_vs_ma20": -0.0357,
   "profitability_score": 7.0,
-  "reasoning": "sentiment 5.0/10; momentum 0.00; price vs MA20: -5.52%",
-  "close": 9110.0,
-  "ma_20": 9642.3,
-  "volatility_20d": 0.020572,
+  "reasoning": "sentiment 5.4/10; momentum +0.00; price vs MA20 -3.6%; RSI 44.1; composite score NEUTRAL territory",
+  "close": 9271.0,
+  "ma_20": 9614.52,
+  "volatility_20d": 0.020776,
   "profit_margin_pct": 15.05,
   "revenue_growth_pct": 23.1,
-  "trailing_pe": 29.09,
-  "eps_trailing": 317.94,
+  "trailing_pe": 28.64,
+  "eps_trailing": 318.0,
   "debt_to_equity": 57.26,
-  "market_cap_cr": 258252.76,
+  "market_cap_cr": 254357.17,
   "roe_pct": NaN,
   "recent_events": [
+    {
+      "subject": "Outcome of Board Meeting",
+      "broadcast_date": "18-Mar-2026 17:44:50",
+      "attachment_url": "https://nsearchives.nseindia.com/corporate/lkwalimbe_bajajauto_co_in_18032026174436_SE_-__ED_PS.pdf"
+    },
     {
       "subject": "Copy of Newspaper Publication",
       "broadcast_date": "13-Mar-2026 14:35:23",
@@ -44,19 +49,14 @@
       "subject": "Agreements",
       "broadcast_date": "05-Mar-2026 17:19:00",
       "attachment_url": "https://nsearchives.nseindia.com/corporate/lkwalimbe_bajajauto_co_in_05032026171843_SE_Intimation_BV_KTM_Loan_5_March_2026_Signed.pdf"
-    },
-    {
-      "subject": "Press Release",
-      "broadcast_date": "02-Mar-2026 08:56:31",
-      "attachment_url": "https://nsearchives.nseindia.com/corporate/lkwalimbe_bajajauto_co_in_02032026085616_Sales_Report_for_Feb_2026.pdf"
     }
   ],
   "news_samples": [
+    "Outcome of Board Meeting. Bajaj Auto Limited has informed the Exchange regarding Outcome of Board Meeting held on March 18, 2026 - Re-appointment of Whole-time Director of the Company.",
     "Copy of Newspaper Publication. Bajaj Auto Limited has informed the Exchange about Copy of Newspaper Publication regarding the Notice of Special Window for Transfer and Dematerialisation of Physical Securities",
     "Credit Rating. Bajaj Auto Limited has informed the Exchange about Credit Rating",
     "Agreements. Bajaj Auto Limited has informed the Exchange about repayment of loans and resultant termination of loan agreements entered into by Bajaj Auto International Holdings BV, a wholly owned subsidiary of Bajaj Auto Limited.",
-    "Press Release. Bajaj Auto Limited has informed the Exchange regarding a press release dated March 02, 2026, titled Sales for the month of February 2026 .",
-    "General Updates. Bajaj Auto Limited has informed the Exchange about ad-hoc announcement made by Bajaj Mobility AG (formerly PIERER Mobility AG), a step-down subsidiary of Bajaj Auto Limited titled - International banking consortium grants KTM AG a refinancing loan to strengthen its financial foundation."
+    "Press Release. Bajaj Auto Limited has informed the Exchange regarding a press release dated March 02, 2026, titled Sales for the month of February 2026 ."
   ],
   "transcript_samples": [
     {
@@ -75,6 +75,6 @@
       "filing_date": "2026-02-06T16:57:55.4"
     }
   ],
-  "report_text": "**Bajaj Auto Company Intelligence Report**\n\n**Sentiment Analysis**\n\nThe current sentiment score for Bajaj Auto stands at 5.82/10, indicating a neutral stance among market participants. The sentiment is largely driven by news and transcript analysis, with 98 news chunks and 30 transcript chunks analyzed. The neutral sentiment is likely due to the lack of significant momentum, as indicated by a momentum score of 0.0. However, a closer look at the news chunks reveals that recent agreements and press releases have contributed to the neutral sentiment, with no significant negative or positive news driving the sentiment.\n\n**Financial Health and Stock Performance**\n\nBajaj Auto's financial health is robust, with a profit margin of 15.05% and revenue growth of 23.1%. The company's profitability score stands at 7.0/10, indicating a stable and profitable business model. The stock performance is also noteworthy, with a current price of Rs. 9110.00, a 5.5% decline from its 20-day moving average, and an RSI of 39.6, indicating a potential buying opportunity. The 3-month volatility is relatively low at 0.0206, suggesting a stable stock price.\n\n**Investment Outlook**\n\nGiven the company's robust financial health and stable stock performance, we believe that Bajaj Auto presents an attractive investment opportunity. The stock's current price is relatively undervalued, with a trailing PE of 29.09, indicating a potential upside. However, investors should be aware of the risks associated with the neutral sentiment and the potential for a decline in stock price. Additionally, the company's dependence on the Indian automobile market and the potential impact of regulatory changes on the industry are key risks to consider. Overall, we recommend a \"hold\" rating for Bajaj Auto, with a potential upside of 10-15% over the next quarter.",
+  "report_text": "**Bajaj Auto Company Intelligence Report**\n\n**Sentiment Analysis**\n\nBajaj Auto's sentiment score stands at 5.42/10, indicating a neutral sentiment. The neutral signal is primarily driven by the lack of momentum in the news and transcript analysis, with a momentum score of 0.0. The analysis of 148 news chunks and 30 transcript chunks reveals a mixed bag of news, with no significant positive or negative trends. The recent board meeting outcome on 18-Mar-2026 and credit rating on 07-Mar-2026 have contributed to the neutral sentiment, with no significant impact on the overall score.\n\n**Financial Health and Stock Performance**\n\nBajaj Auto's financials are robust, with a profit margin of 15.05% and revenue growth of 23.1%. The profitability score of 7.0/10 indicates a stable profitability profile. The stock performance is mixed, with a current price of Rs. 9271.00 and a 20-day moving average (MA) of -3.6%. The relative strength index (RSI) of 44.1 indicates a neutral stock, neither overbought nor oversold. The 3-month volatility of 0.0208 is relatively low, indicating a stable stock. The trailing price-to-earnings (PE) ratio of 28.64 is slightly above the industry average.\n\n**Investment Outlook**\n\nWe recommend a cautious approach to Bajaj Auto, given the neutral sentiment and mixed stock performance. The company's financials are robust, but the lack of momentum in the news and transcript analysis is a concern. The recent agreements on 06-Mar-2026 and 05-Mar-2026 may have a positive impact on the company's growth prospects. However, the risks associated with the neutral sentiment and low momentum score cannot be ignored. Investors should closely monitor the company's performance and adjust their investment strategy accordingly.",
   "generated_by": "llama-3.1-8b-instant"
 }

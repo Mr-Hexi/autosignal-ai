@@ -2,27 +2,27 @@
   "company": "Hero MotoCorp",
   "slug": "hero-motocorp",
   "ticker": "HEROMOTOCO.NS",
-  "report_date": "18 March 2026",
-  "generated_at": "2026-03-18T09:29:29.915852",
-  "sentiment_score": 5.65,
-  "article_count": 90,
+  "report_date": "19 March 2026",
+  "generated_at": "2026-03-19T05:09:54.693908",
+  "sentiment_score": 5.31,
+  "article_count": 132,
   "transcript_count": 30,
-  "sentiment_intensity": 25.4864,
+  "sentiment_intensity": 25.9678,
   "signal": "NEUTRAL",
   "momentum": 0.0,
-  "rsi_14": 43.78,
-  "price_vs_ma20": -0.0306,
+  "rsi_14": 46.69,
+  "price_vs_ma20": -0.0164,
   "profitability_score": 6.5,
-  "reasoning": "sentiment 5.0/10; momentum 0.00; price vs MA20: -3.06%",
-  "close": 5355.0,
-  "ma_20": 5523.78,
-  "volatility_20d": 0.022364,
+  "reasoning": "sentiment 5.3/10; momentum +0.00; price vs MA20 -1.6%; RSI 46.7; composite score NEUTRAL territory",
+  "close": 5426.0,
+  "ma_20": 5516.22,
+  "volatility_20d": 0.022283,
   "profit_margin_pct": 12.26,
   "revenue_growth_pct": 21.7,
-  "trailing_pe": 20.07,
-  "eps_trailing": 272.03,
+  "trailing_pe": 19.57,
+  "eps_trailing": 271.84,
   "debt_to_equity": 3.4,
-  "market_cap_cr": 109249.02,
+  "market_cap_cr": 106467.77,
   "roe_pct": NaN,
   "recent_events": [
     {
@@ -53,7 +53,10 @@
   ],
   "news_samples": [
     "Credit Rating. Hero MotoCorp Limited has informed the Exchange about Credit Rating",
-    "Trading Window. Hero MotoCorp Limited has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015"
+    "Trading Window. Hero MotoCorp Limited has informed the Exchange regarding the Trading Window closure pursuant to SEBI (Prohibition of Insider Trading) Regulations, 2015",
+    "Press Release. Hero MotoCorp Limited has informed the Exchange regarding a press release dated November 03, 2025, titled Press Release .",
+    "Change in Director(s). Hero MotoCorp Limited has informed the Exchange regarding Change in Director(s) of the company.",
+    "Record Date. Hero MotoCorp Limited has informed the Exchange that Record date for the purpose of Dividend is 24-Jul-2025."
   ],
   "transcript_samples": [
     {
@@ -72,6 +75,6 @@
       "filing_date": "2026-02-17T12:56:02.363"
     }
   ],
-  "report_text": "**Hero MotoCorp Company Intelligence Report**\n\n**Sentiment and News Analysis**\n\nThe current sentiment for Hero MotoCorp is NEUTRAL, with a Sentiment Score of 5.65/10. This neutral sentiment is driven by mixed news and transcript analysis, with 90 news chunks and 30 transcript chunks analyzed. Notably, the lack of momentum (0.0) suggests that investors are awaiting significant developments to drive the stock price. Recent news and transcripts have been largely general updates and analyst/institutional investor meets, with only one material issue disclosed on 12-Mar-2026.\n\n**Financial Health and Stock Performance**\n\nHero MotoCorp's financial health is stable, with a Profit Margin of 12.26% and Revenue Growth of 21.7%. The Profitability Score of 6.5/10 indicates a moderate level of profitability. The stock's current price of Rs. 5355.00 is trading at a 3.1% discount to its 20-day moving average. The RSI (14-day) of 43.8 suggests that the stock is neither overbought nor oversold. The 3-month volatility of 0.0224 is relatively low, indicating a stable stock price.\n\n**Investment Outlook**\n\nWe maintain a neutral investment outlook for Hero MotoCorp, driven by its stable financial health and moderate profitability. However, the lack of momentum and neutral sentiment suggest that investors are awaiting significant developments to drive the stock price. Key risks include the company's reliance on the Indian motorcycle market, which may be impacted by economic downturns. Opportunities include the company's expanding global presence and increasing focus on electric vehicles. We recommend monitoring the company's progress on these fronts to inform investment decisions.",
+  "report_text": "**Hero MotoCorp Company Intelligence Report**\n\n**Sentiment and News Analysis**\n\nThe current sentiment score for Hero MotoCorp stands at 5.31/10, indicating a neutral stance among market participants. Our analysis of 132 news chunks and 30 transcript chunks reveals that the company's recent disclosures on material issues (12-Mar-2026) and general updates (10-Mar-2026) have contributed to the neutral sentiment. The absence of any significant positive or negative news has resulted in a flat momentum score of 0.0. However, the company's efforts to engage with analysts and institutional investors (16-Mar-2026) may have a positive impact on sentiment in the near term.\n\n**Financial Health and Stock Performance**\n\nHero MotoCorp's financials indicate a stable business model, with a profit margin of 12.26% and revenue growth of 21.7%. The company's profitability score of 6.5/10 suggests a moderate level of profitability. The stock's current price of Rs. 5426.00 is trading at a 1.6% discount to its 20-day moving average, indicating a slight bearish trend. The RSI (14-day) of 46.7 suggests that the stock is neither overbought nor oversold. The 3-month volatility of 0.0223 is relatively low, indicating a stable stock price.\n\n**Investment Outlook**\n\nWe believe that Hero MotoCorp's stable financials and moderate profitability make it an attractive investment opportunity. However, investors should be aware of the risks associated with the company's neutral sentiment and flat momentum. The recent disclosures on material issues may have a negative impact on the stock price if not managed properly. On the other hand, the company's efforts to engage with analysts and institutional investors may lead to a positive sentiment shift. We recommend a cautious approach, with a focus on monitoring the company's progress and adjusting the investment thesis accordingly.",
   "generated_by": "llama-3.1-8b-instant"
 }

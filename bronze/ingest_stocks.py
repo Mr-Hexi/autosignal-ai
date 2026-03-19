@@ -15,7 +15,7 @@ TICKERS = [
 ]
 
 END_DATE   = datetime.today()
-START_DATE = END_DATE - timedelta(days=90)  # 3 months
+START_DATE = END_DATE - timedelta(days=365)  # 1 year
 
 OUTPUT_DIR = "data/bronze/stocks"
 
